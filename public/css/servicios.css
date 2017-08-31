@@ -1,3 +1,15 @@
+/**Small devices (landscape phones, 200px and up)**/
+@media (min-width: 200px) {
+    .textoH2Servicio{
+        font-size:8px;
+    }
+    .textoH3Servicio{
+        font-size:6px;
+    }
+    .informationText{
+        font-size: 4px;
+    }
+}
 /**Small devices (landscape phones, 576px and up)**/
 @media (min-width: 576px) {
     .textoH2Servicio{
