@@ -1,26 +1,26 @@
 /**Small devices (landscape phones, 576px and up)**/
 @media (min-width: 576px) {
     .textoH2Servicio{
-        font-size:1rem;
+        font-size:0.5rem;
     }
     .textoH3Servicio{
-        font-size:0.8rem;
+        font-size:0.4rem;
     }
     .informationText{
-        font-size: 0.4rem;
+        font-size: 0.1rem;
     }
 }
 
 /** Medium devices (tablets, 768px and up)**/
 @media (min-width: 768px) {
     .textoH2Servicio{
-        font-size:1.5rem;
-    }
-    .textoH3Servicio{
         font-size:1rem;
     }
+    .textoH3Servicio{
+        font-size:0.5rem;
+    }
     .informationText{
-        font-size: 0.5rem;
+        font-size: 0.2rem;
     }
 }
 
