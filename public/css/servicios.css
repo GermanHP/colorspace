@@ -1,5 +1,3 @@
-/**Small devices (landscape phones, 200px and up)**/
-
 .img-responsive-opacity{
     width: 100%;
     height: auto;
@@ -87,7 +85,7 @@
 /*Fin contenedor-img-2 */
 .informacion-servicio{
     border: 3px solid white;
-    border-radius: 40%;
+    border-radius: 5%;
     text-decoration: none;
     color: white;
 }
