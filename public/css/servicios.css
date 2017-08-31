@@ -38,6 +38,9 @@
 
 /** Large devices (desktops, 992px and up)**/
 @media (min-width: 992px) {
+    .informacion-servicio{
+        color: red;
+    }
     .textoH2Servicio{
         font-size:18px;
     }
@@ -51,6 +54,9 @@
 
 /** Extra large devices (large desktops, 1200px and up)**/
 @media (min-width: 1200px) {
+    .informacion-servicio{
+        color: white;
+    }
     .textoH2Servicio{
         font-size:3rem;
     }
