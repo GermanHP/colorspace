@@ -1,3 +1,62 @@
+/**Small devices (landscape phones, 576px and up)**/
+@media (min-width: 576px) {
+    .textoH2Servicio{
+        font-size:1.5rem;
+    }
+    .textoH3Servicio{
+        font-size:1rem;
+    }
+    .informationText{
+        font-size: 0.5rem;
+    }
+}
+
+/** Medium devices (tablets, 768px and up)**/
+@media (min-width: 768px) {
+    .textoH2Servicio{
+        font-size:2rem;
+    }
+    .textoH3Servicio{
+        font-size:1.5rem;
+    }
+    .informationText{
+        font-size: 0.8rem;
+    }
+}
+
+/** Large devices (desktops, 992px and up)**/
+@media (min-width: 992px) {
+    .textoH2Servicio{
+        font-size:2.5rem;
+    }
+    .textoH3Servicio{
+        font-size:2rem;
+    }
+    .informationText{
+        font-size: 1rem;
+    }
+}
+
+/** Extra large devices (large desktops, 1200px and up)**/
+@media (min-width: 1200px) {
+    .textoH2Servicio{
+        font-size:3rem;
+    }
+    .textoH3Servicio{
+        font-size:2.5rem;
+    }
+    .informationText{
+        font-size: 2rem;
+    }
+}
+.textoServicio{
+
+}
+.informationText{
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
 .img-responsive-opacity{
     width: 100%;
     height: auto;
