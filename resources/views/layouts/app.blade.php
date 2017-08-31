@@ -23,9 +23,9 @@
 
 
     {!! Html::style('css/animate.css') !!}
-    {!! Html::style('css/app.css') !!}
     {!! Html::style('css/images.css') !!}
     {!! Html::style('css/servicios.css') !!}
+{!! Html::style('css/app.css') !!}
     {!! Html::style('css/style.css') !!}
 
 

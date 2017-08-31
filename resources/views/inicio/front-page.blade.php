@@ -34,7 +34,7 @@
                 <h4 class="text-center white-text">Tienda Online</h4>
 
             </div>
-            <a href="{{url('web')}}"><img class="desvanecer inicio" src="img/front/A3.jpg" alt=""></a>
+            <a href="{{url('/webdesign')}}"><img class="desvanecer inicio" src="img/front/A3.jpg" alt=""></a>
         </div>
         <div class="col-lg-3 div-imagen">
             <div><h1 class="center-block white-text">PROMOCIONES</h1></div>
