@@ -43,9 +43,9 @@
                <img src="img/arquitectura/luminaria.jpg" alt="" class="img-responsive-opacity" id="luminaria">
                <div class="mascara">
                    <br>
-                   <h2 class="white-text"><strong>ILUMINACIÓN</strong></h2>
-                   <h3 class="white-text">INTERIOR/EXTERIOR</h3>
-                   <a href="#" class="white-text">Informacion</a>
+                   <h2 class="white-text textoH2Servicio"><strong>ILUMINACIÓN</strong></h2>
+                   <h3 class="white-text textoH3Servicio">INTERIOR/EXTERIOR</h3>
+                   <a href="#" class="white-text informationText">Informacion</a>
                </div>
           </div>
         </div>
