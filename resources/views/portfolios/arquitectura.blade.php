@@ -45,7 +45,7 @@
                    <br>
                    <h2 class="white-text textoH2Servicio"><strong>ILUMINACIÓN</strong></h2>
                    <h3 class="white-text textoH3Servicio">INTERIOR/EXTERIOR</h3>
-                   <a href="#" class="white-text informationText">Informacion</a>
+                   <a href="#" class="informacion-servicio">Informacion</a>
                </div>
           </div>
         </div>
@@ -59,7 +59,7 @@
                      <br>
                      <h2 class="white-text textoH2Servicio"><strong>COLOR DE ESPACIOS</strong></h2>
                      <h3 class="white-text textoH3Servicio">INTERIOR/EXTERIOR</h3>
-                     <a href="#" class="white-text informationText">Informacion</a>
+                     <a href="#" class="white-text informacion-servicio">Informacion</a>
                  </div>
             </div>
         </div>
@@ -72,7 +72,7 @@
                    <br>
                    <h2 class="white-text textoH2Servicio"><strong>DISEÑO</strong></h2>
                    <h3 class="white-text textoH3Servicio">ARQUITECTONICO</h3>
-                   <a href="#" class="informationText">Informacion</a>
+                   <a href="#" class="informacion-servicio">Informacion</a>
                </div>
           </div>
         </div>

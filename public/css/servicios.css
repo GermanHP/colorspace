@@ -1,13 +1,13 @@
 /**Small devices (landscape phones, 200px and up)**/
 @media (min-width: 200px) {
     .textoH2Servicio{
-        font-size:7%;
+        font-size:4%;
     }
     .textoH3Servicio{
-        font-size:6%;
+        font-size:3%;
     }
     .informationText{
-        font-size: 2%;
+        font-size: 1%;
     }
 }
 /**Small devices (landscape phones, 576px and up)**/
@@ -64,13 +64,7 @@
 .textoServicio{
 
 }
-.informationText{
-    text-decoration: none;
-    border: 3px solid white;
-    border-radius: 40%;
-    color: #FFFFFF;
 
-}
 .img-responsive-opacity{
     width: 100%;
     height: auto;
@@ -161,7 +155,6 @@
     border-radius: 40%;
     text-decoration: none;
     color: white;
-    padding: 2px 20px;
 }
 
 .icons-porta{
