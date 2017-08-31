@@ -59,7 +59,7 @@
                      <br>
                      <h2 class="white-text textoH2Servicio"><strong>COLOR DE ESPACIOS</strong></h2>
                      <h3 class="white-text textoH3Servicio">INTERIOR/EXTERIOR</h3>
-                     <a href="#" class="informationText">Informacion</a>
+                     <a href="#" class="white-text informationText">Informacion</a>
                  </div>
             </div>
         </div>
