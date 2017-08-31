@@ -170,3 +170,7 @@ img:hover#maqueta2{
 .black-text{
     color: #000000;
 }
+
+div#pag-inicio{
+    size: auto;
+}

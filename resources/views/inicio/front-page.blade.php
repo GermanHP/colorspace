@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <div class="row" >
+    <div class="row" id="pag-inicio">
        <div class="col-lg-3 div-imagen">
            <div>
                <h1 class="text-center white-text">ARQUITECTURA</h1>
