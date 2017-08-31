@@ -1,39 +1,39 @@
 /**Small devices (landscape phones, 576px and up)**/
 @media (min-width: 576px) {
     .textoH2Servicio{
-        font-size:0.5rem;
+        font-size:12px;
     }
     .textoH3Servicio{
-        font-size:0.4rem;
+        font-size:8px;
     }
     .informationText{
-        font-size: 0.1rem;
+        font-size: 6px;
     }
 }
 
 /** Medium devices (tablets, 768px and up)**/
 @media (min-width: 768px) {
     .textoH2Servicio{
-        font-size:1rem;
+        font-size:16px;
     }
     .textoH3Servicio{
-        font-size:0.5rem;
+        font-size:12px;
     }
     .informationText{
-        font-size: 0.2rem;
+        font-size: 8px;
     }
 }
 
 /** Large devices (desktops, 992px and up)**/
 @media (min-width: 992px) {
     .textoH2Servicio{
-        font-size:2rem;
+        font-size:18px;
     }
     .textoH3Servicio{
-        font-size:1.5rem;
+        font-size:15px;
     }
     .informationText{
-        font-size: 0.8rem;
+        font-size: 10px;
     }
 }
 
