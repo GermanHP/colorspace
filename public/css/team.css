@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+div#sobre-nosotros{
+    background-image: url("../img/team/wallteam.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-equipo{
+    width: 570px;
+    height: auto;
+}
+
+.img-equipo2{
+    margin-top: -60px;
+    width: 570px;
+    height: auto;
+}
+
+.texto-funda{
+    margin-right: -50px;
+}
+
+.bg-equipo{
+    background-color: #193441;
+    width: 400px;
+    border-top-left-radius: 15px 5px;
+    border-top-right-radius: 15px 5px;
+    border-bottom-right-radius: 15px 5px;
+    border-bottom-left-radius: 15px 5px;
+}

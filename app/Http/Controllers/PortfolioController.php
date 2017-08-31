@@ -13,4 +13,8 @@ class PortfolioController extends Controller
     public function design(){
         return view('portfolios.design');
     }
+
+    public function web(){
+        return view('portfolios.desarrollo');
+    }
 }

@@ -1,7 +1,10 @@
 html, body, main{
-    background-color: #2A2C2B;
+    background-color: #193441;
 }
 
+nav{
+ background-color: snow;
+}
 div#services{
     background-color: #2A2C2B;
     color: #ffffff;
@@ -25,6 +28,7 @@ div#team{
 div#services2{
     margin-left: 6%;
 }
+
 .parallax {
     /* Set a specific height */
     width: 100%;
@@ -38,7 +42,6 @@ div#services2{
 }
 
 #logoColorSpace{
-
     height:80px;
     margin-top:-15px;
 }
@@ -73,20 +76,6 @@ div#myModal{
     margin-top: 50px;
 }
 
-.modal-header{
-    background-color: rgb(96,125,139);
-    color: #ffffff;
-}
-
-.modal-footer{
-    background-color: rgb(96,125,139);
-    color: #ffffff;
-}
-
-.modal-body{
-    background-color: #2A2C2B;
-    color: #ffffff;
-}
 
 #arqui img{
     width: 80%;
@@ -96,4 +85,88 @@ div#myModal{
 
 #arqui img:hover{
     opacity: 1;
+}
+
+div#luminaria{
+    background-image: url("../img/arquitectura/luminaria.jpg");
+
+}
+
+.arreglo1{
+    width: 100%;
+    height: auto;
+}
+
+.arreglo12{
+    width: 132%;
+    height: auto;
+}
+
+.arreglo2{
+    width: 132%;
+    height: auto;
+    margin-left: -30px;
+}
+
+div#moreinfo{
+    background-image: url("../img/arquitectura/bigspace.jpg");
+    height: 300px;
+}
+
+.prueba1 {
+    margin-top: -280px;
+    width: 200px;
+    background-image: url("../img/arquitectura/bigspace.jpg");
+    height: 280px;
+    transition: all 1s ease;
+}
+.prueba1:hover{
+    width: 100%;
+    transition: all 1s ease;
+}
+
+img#maqueta2{
+
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover#maqueta2{
+    opacity: 1;
+}
+
+.div-imagen {
+    display:inline-block;
+    position:relative;
+}
+
+.div-imagen > div {
+    position:absolute;
+    top:35%;
+    left:15%;
+    z-index:-1;
+    padding:10px;
+    margin:0;
+}
+
+.desvanecer:hover {
+    opacity: 0.5;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+.inicio{
+    width: 110%;
+    height: auto;
+}
+
+.white-text{
+    color: white;
+}
+
+.black-text{
+    color: #000000;
 }

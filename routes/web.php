@@ -23,7 +23,10 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/', 'MainController@inicio');
 Route::get('/architecture', 'PortfolioController@arqui');
 Route::get('/design', 'PortfolioController@design');
-Route::get('/team', 'MainController@team');
+Route::get('/webdesign', 'PortfolioController@web');
 
 /* Rutas para Post en el blog*/
 Route::get('/newPost', 'BlogController@nuevoPost');
+
+/*Rutas para los perfiles*/
+Route::get('/team', 'ProfileController@index');
