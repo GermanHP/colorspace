@@ -8,25 +8,25 @@
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
                 <i class="material-icons white-text">format_paint</i>
             </button>
-            <h5 class="white-text text-center">Color de Espacios</h5>
+            <h5 class="white-text text-center ocultarTexto">Color de Espacios</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
             <i class="material-icons white-text">tonality</i>
             </button>
-            <h5 class="white-text text-center">Diseño Interior</h5>
+            <h5 class="white-text text-center ocultarTexto">Diseño Interior</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
             <i class="material-icons white-text">assessment</i>
             </button>
-            <h5 class="white-text text-center">Construcción</h5>
+            <h5 class="white-text text-center ocultarTexto">Construcción</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
             <i class="material-icons white-text">extension</i>
             </button>
-            <h5 class="white-text text-center">
+            <h5 class="white-text text-center ocultarTexto">
                 Remodelación
             </h5>
         </div>
@@ -34,7 +34,7 @@
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
             <i class="material-icons white-text">home</i>
             </button>
-            <h5 class="white-text text-center">Inmobiliaria</h5>
+            <h5 class="white-text text-center ocultarTexto">Inmobiliaria</h5>
         </div>
         <div class="col-xs-1"></div>
         <br>
@@ -43,9 +43,11 @@
                <img src="img/arquitectura/luminaria.jpg" alt="" class="img-responsive-opacity" id="luminaria">
                <div class="mascara">
                    <br>
-                   <h2 class="white-text"><strong>ILUMINACIÓN</strong></h2>
-                   <h3 class="white-text">INTERIOR/EXTERIOR</h3>
-                   <a href="#" class="white-text">Informacion</a>
+                   <div class="textoCentrado">
+                       <h2 class="white-text textoH2Servicio textoServicio"><strong>ILUMINACIÓN</strong></h2>
+                       <h3 class="white-text textoH3Servicio textoServicio">INTERIOR/EXTERIOR</h3>
+                       <a href="#" class="informacion-servicio textoServicio">Informacion</a>
+                   </div>
                </div>
           </div>
         </div>
@@ -57,9 +59,11 @@
                  <img src="img/arquitectura/paletas.jpg" alt="" class="img-responsive-opacity" id="paletas">
                  <div class="mascara-2">
                      <br>
-                     <h2 class="white-text"><strong>COLOR DE ESPACIOS</strong></h2>
-                     <h3 class="white-text">INTERIOR/EXTERIOR</h3>
-                     <a href="#" class="">Informacion</a>
+                     <div class="textoCentrado">
+                         <h2 class="white-text textoH2Servicio textoServicio"><strong>COLOR DE ESPACIOS</strong></h2>
+                         <h3 class="white-text textoH3Servicio textoServicio">INTERIOR/EXTERIOR</h3>
+                         <a href="#" class="informacion-servicio textoServicio">Informacion</a>
+                     </div>
                  </div>
             </div>
         </div>
@@ -70,9 +74,11 @@
                <img src="img/arquitectura/maqueta.jpg" alt="" class="img-responsive-opacity" id="maqueta">
                <div class="mascara">
                    <br>
-                   <h2 class="white-text"><strong>DISEÑO</strong></h2>
-                   <h3 class="white-text">ARQUITECTONICO</h3>
-                   <a href="#" class="">Informacion</a>
+                   <div class="textoCentrado">
+                       <h2 class="white-text textoH2Servicio textoServicio"><strong>DISEÑO</strong></h2>
+                       <h3 class="white-text textoH3Servicio textoServicio">ARQUITECTONICO</h3>
+                       <a href="#" class="informacion-servicio textoServicio">Informacion</a>
+                   </div>
                </div>
           </div>
         </div>
