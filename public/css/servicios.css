@@ -2,15 +2,15 @@
 @media (min-width: 100px) {
     .textoH2Servicio{
 
-        font-size:0.8rem;
+        font-size:0.9rem;
     }
     .textoH3Servicio{
 
-        font-size:0.8rem;
+        font-size:0.9rem;
     }
     .informacion-servicio{
         border-bottom: 2px solid white;
-        font-size:0.7rem;
+        font-size:0.9rem;
     }
     .textoServicio{
         margin: 0;
@@ -19,18 +19,20 @@
     .ocultarTexto{
         display: none;
     }
-
+    .portafolio-link{
+        margin-top: 20%;
+    }
 }
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {
     .textoH2Servicio{
-        font-size:1rem;
+        font-size:1.3rem;
     }
     .textoH3Servicio{
-        font-size:0.8rem;
+        font-size:1.2rem;
     }
     .informacion-servicio{
-        font-size:0.8rem;
+        font-size:1rem;
 
         border-bottom: 2px solid white;
     }
@@ -43,6 +45,9 @@
     }
     .ocultarTexto{
         display: none;
+    }
+    .portafolio-link{
+        margin-top: 15%;
     }
 }
 
@@ -66,6 +71,9 @@
     .ocultarTexto{
         display: block;
     }
+    .portafolio-link{
+        margin-top: 10%;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -88,6 +96,9 @@
     .ocultarTexto{
         display: block;
     }
+    .portafolio-link{
+        margin-top: 10%;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -109,6 +120,9 @@
     }
     .ocultarTexto{
         display: block;
+    }
+    .portafolio-link{
+        margin-top: 0%;
     }
 }
 
@@ -224,4 +238,8 @@ div#servicios{
 div#moreinfo{
     background-image: url("../img/arquitectura/bigspace.jpg");
     height: 300px;
+}
+#ver-mas{
+    border-bottom: 2px solid white;
+    margin-top: 20%;
 }
