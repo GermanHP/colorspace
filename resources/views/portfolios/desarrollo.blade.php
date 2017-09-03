@@ -65,6 +65,9 @@
         </div>
     </div>
     <div class="row" id="moreinfo">
-        <h3 class="center-block textoH2Servicio white-text">Saber más</h3>
+        <div>
+            <h3 class="center-block textoH2Servicio white-text">PORTAFOLIO</h3>
+            <h3 class="center-block textoH3Servicio white-text informacion-servicio">Ver más</h3>
+        </div>
     </div>
 @stop

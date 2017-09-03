@@ -95,7 +95,5 @@
             </div>
         </div>
     </div>
-    <div class="row" id="moreinfo">
-        <h3 class="center-block textoH2Servicio white-text">Saber más</h3>
-    </div>
+
 @stop
