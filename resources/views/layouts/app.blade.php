@@ -3,7 +3,15 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -23,9 +31,9 @@
 
 
     {!! Html::style('css/animate.css') !!}
-    {!! Html::style('css/app.css') !!}
     {!! Html::style('css/images.css') !!}
     {!! Html::style('css/servicios.css') !!}
+    {!! Html::style('css/app.css') !!}
     {!! Html::style('css/style.css') !!}
 
 
@@ -63,7 +71,9 @@
     </div>
 </nav>
 <main class="mdl-layout__content">
-    @yield('content')
+    <div class="page-content">
+     @yield('content')
+    </div>
 </main>
 
  @include('includes.footer')

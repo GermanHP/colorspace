@@ -8,31 +8,31 @@
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
                 <i class="material-icons white-text">computer</i>
             </button>
-            <h5 class="white-text text-center">Diseño Web a Medida</h5>
+            <h5 class="white-text text-center ocultarTexto">Diseño Web a Medida</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
                 <i class="material-icons white-text">domain</i>
             </button>
-            <h5 class="white-text text-center">Diseños Web Corporativos</h5>
+            <h5 class="white-text text-center ocultarTexto">Diseños Web Corporativos</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
                 <i class="material-icons white-text">store_mall_directory</i>
             </button>
-            <h5 class="white-text text-center">Diseño Web PYME</h5>
+            <h5 class="white-text text-center ocultarTexto">Diseño Web PYME</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
                 <i class="material-icons white-text">dashboard</i>
             </button>
-            <h5 class="white-text text-center">Diseño Web Portal</h5>
+            <h5 class="white-text text-center ocultarTexto">Diseño Web Portal</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
                 <i class="material-icons white-text">shopping_cart</i>
             </button>
-            <h5 class="white-text text-center">Tienda Online</h5>
+            <h5 class="white-text text-center ocultarTexto">Tienda Online</h5>
         </div>
         <div class="col-xs-1"></div>
         <br>
@@ -41,8 +41,10 @@
                <img src="img/dev/wordpress.jpg" alt="" class="img-responsive-opacity" id="wordpress-page">
                <div class="mascara">
                    <br>
-                   <h2 class="white-text">DESARROLLO WEB (WORDPRESS)</h2>
-                   <a href="#" class="">Informacion</a>
+                   <div class="textoCentrado">
+                       <h2 class="white-text textoH2Servicio textoServicio">DESARROLLO WEB (WORDPRESS)</h2>
+                       <a href="#" class="informacion-servicio textoServicio">Informacion</a>
+                   </div>
                </div>
           </div>
         </div>
@@ -54,10 +56,18 @@
                  <img src="img/dev/webmedida.jpg" alt="" class="img-responsive-opacity" id="web-medida">
                  <div class="mascara-2">
                      <br>
-                     <h2 class="white-text">DESARROLLO WEB A MEDIDA</h2>
-                     <a href="#" class="">Informacion</a>
+                     <div class="textoCentrado">
+                         <h2 class="white-text textoH2Servicio textoServicio">DESARROLLO WEB A MEDIDA</h2>
+                         <a href="#" class="informacion-servicio textoServicio">Informacion</a>
+                     </div>
                  </div>
             </div>
+        </div>
+    </div>
+    <div class="row" id="moreinfo">
+        <div>
+            <h3 class="center-block textoH2Servicio white-text">PORTAFOLIO</h3>
+            <h3 class="center-block textoH3Servicio white-text informacion-servicio">Ver más</h3>
         </div>
     </div>
 @stop
