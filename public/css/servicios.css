@@ -1,11 +1,9 @@
 /* Small devices (landscape phones, 100px and up) */
 @media (min-width: 100px) {
     .textoH2Servicio{
-
         font-size:0.9rem;
     }
     .textoH3Servicio{
-
         font-size:0.9rem;
     }
     .informacion-servicio{
@@ -33,7 +31,6 @@
     }
     .informacion-servicio{
         font-size:1rem;
-
         border-bottom: 2px solid white;
     }
     .textoServicio{
@@ -60,7 +57,6 @@
         font-size:1.5rem;
     }
     .informacion-servicio{
-
         border-bottom: 2px solid white;
         font-size:1rem;
     }
@@ -239,7 +235,8 @@ div#moreinfo{
     background-image: url("../img/arquitectura/bigspace.jpg");
     height: 300px;
 }
-#ver-mas{
+.ver-mas{
     border-bottom: 2px solid white;
     margin-top: 20%;
 }
+
