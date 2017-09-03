@@ -9,7 +9,7 @@
         font-size:0.8rem;
     }
     .informacion-servicio{
-        border: 2px solid white;
+        border-bottom: 2px solid white;
         font-size:0.7rem;
     }
     .textoServicio{
@@ -32,7 +32,7 @@
     .informacion-servicio{
         font-size:0.8rem;
 
-        border: 2px solid white;
+        border-bottom: 2px solid white;
     }
     .textoServicio{
         margin: 10px;
@@ -56,7 +56,7 @@
     }
     .informacion-servicio{
 
-        border: 3px solid white;
+        border-bottom: 2px solid white;
         font-size:1rem;
     }
     .textoServicio{
@@ -78,7 +78,7 @@
     }
     .informacion-servicio{
         padding: 6px;
-        border: 3px solid white;
+        border-bottom: 2px solid white;
         font-size:1rem;
     }
     .textoServicio{
@@ -100,7 +100,7 @@
     }
     .informacion-servicio{
         padding: 5px;
-        border: 3px solid white;
+        border-bottom: 2px solid white;
         font-size:2rem;
     }
     .textoServicio{
@@ -198,10 +198,6 @@
 }
 /*Fin contenedor-img-2 */
 .informacion-servicio{
-    border-top-left-radius: 15px 5px;
-    border-top-right-radius: 15px 5px;
-    border-bottom-right-radius: 15px 5px;
-    border-bottom-left-radius: 15px 5px;
     text-decoration: none;
     padding: 5px 8px;
     color: white;
@@ -224,4 +220,8 @@ div#servicios{
 
 .ajuste-servicios{
     margin-top: 10px;
+}
+div#moreinfo{
+    background-image: url("../img/arquitectura/bigspace.jpg");
+    height: 300px;
 }

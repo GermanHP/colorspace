@@ -76,11 +76,15 @@
                    <br>
                    <div class="textoCentrado">
                        <h2 class="white-text textoH2Servicio textoServicio"><strong>DISEÑO</strong></h2>
-                       <h3 class="white-text textoH3Servicio textoServicio">ARQUITECTONICO</h3>
+                       <h3 class="white-text textoH3Servicio textoServicio">ARQUITECTÓNICO</h3>
                        <a href="#" class="informacion-servicio textoServicio">Informacion</a>
                    </div>
                </div>
           </div>
         </div>
+    </div>
+    <div class="row" id="moreinfo">
+        <h3 class="center-block textoH2Servicio white-text">PORTAFOLIO</h3>
+        <h3 class="center-block textoH3Servicio white-text informacion-servicio">Ver más</h3>
     </div>
 @stop
