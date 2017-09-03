@@ -85,10 +85,9 @@
 /*Fin contenedor-img-2 */
 .informacion-servicio{
     border: 3px solid white;
-    border-radius: 40%;
+    border-radius: 5%;
     text-decoration: none;
     color: white;
-    padding: 2px 20px;
 }
 
 .icons-porta{

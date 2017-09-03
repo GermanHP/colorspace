@@ -43,9 +43,9 @@
                <img src="img/arquitectura/luminaria.jpg" alt="" class="img-responsive-opacity" id="luminaria">
                <div class="mascara">
                    <br>
-                   <h2 class="white-text"><strong>ILUMINACIÓN</strong></h2>
-                   <h3 class="white-text">INTERIOR/EXTERIOR</h3>
-                   <a href="#" class="white-text">Informacion</a>
+                   <h2 class="white-text textoH2Servicio"><strong>ILUMINACIÓN</strong></h2>
+                   <h3 class="white-text textoH3Servicio">INTERIOR/EXTERIOR</h3>
+                   <a href="#" class="informacion-servicio">Informacion</a>
                </div>
           </div>
         </div>
@@ -57,9 +57,9 @@
                  <img src="img/arquitectura/paletas.jpg" alt="" class="img-responsive-opacity" id="paletas">
                  <div class="mascara-2">
                      <br>
-                     <h2 class="white-text"><strong>COLOR DE ESPACIOS</strong></h2>
-                     <h3 class="white-text">INTERIOR/EXTERIOR</h3>
-                     <a href="#" class="">Informacion</a>
+                     <h2 class="white-text textoH2Servicio"><strong>COLOR DE ESPACIOS</strong></h2>
+                     <h3 class="white-text textoH3Servicio">INTERIOR/EXTERIOR</h3>
+                     <a href="#" class="white-text informacion-servicio">Informacion</a>
                  </div>
             </div>
         </div>
@@ -70,9 +70,9 @@
                <img src="img/arquitectura/maqueta.jpg" alt="" class="img-responsive-opacity" id="maqueta">
                <div class="mascara">
                    <br>
-                   <h2 class="white-text"><strong>DISEÑO</strong></h2>
-                   <h3 class="white-text">ARQUITECTONICO</h3>
-                   <a href="#" class="">Informacion</a>
+                   <h2 class="white-text textoH2Servicio"><strong>DISEÑO</strong></h2>
+                   <h3 class="white-text textoH3Servicio">ARQUITECTONICO</h3>
+                   <a href="#" class="informacion-servicio">Informacion</a>
                </div>
           </div>
         </div>
