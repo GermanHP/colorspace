@@ -8,7 +8,6 @@
                <h4 class="text-center white-text">Remodelación</h4>
                <h4 class="text-center white-text">Inmobiliaria</h4>
            </div>
-
                 <a href="{{url('/architecture')}}"><img class="desvanecer inicio" src="img/front/A1.jpg" alt=""></a>
                <h2 id="arquitectura" class="text-center"><span>ARQUITECTURA</span></h2><br>
        </div>
@@ -19,7 +18,6 @@
                 <h4 class="text-center white-text">Audiovisual</h4>
                 <h4 class="text-center white-text">Imagen Gráfica de Eventos</h4>
                 <h4 class="text-center white-text">Ilustración</h4>
-
             </div>
             <a href="{{url('/design')}}"><img class="desvanecer inicio" src="img/front/A2.jpg" alt=""></a>
             <h2 id="diseniografico" class="text-center"><span>DISEÑO GRÁFICO</span></h2><br>
@@ -31,7 +29,6 @@
                 <h4 class="text-center white-text">Diseño Web PYME</h4>
                 <h4 class="text-center white-text">Diseño Web Portal</h4>
                 <h4 class="text-center white-text">Tienda Online</h4>
-
             </div>
             <a href="{{url('web')}}"><img class="desvanecer inicio" src="img/front/A3.jpg" alt=""></a>
             <h2 id="desarrolloweb" class="text-center"><span>DESARROLLO WEB</span></h2><br>
