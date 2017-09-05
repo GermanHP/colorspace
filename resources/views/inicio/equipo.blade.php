@@ -11,11 +11,11 @@
                 <br><br><br><br>
                 <h3 class="white-text text-center">SOBRE NOSOTROS</h3>
                 <br>
-                <p class="white-text text-justify pull-right">Color Space fue fundado el 18 de agosto del año 2016,
+                <h4 class="white-text text-justify pull-right">Color Space fue fundado el 18 de agosto del año 2016,
                     desde nuestro inicio nos capacitamos con el fin de mejorar el modelo de negocios y recibimos
                     asesoría técnica de expertos nacionales e internacionales, actualmente somos socios profesionales
                     que lideramos el proyecto y direccionamos nuestras capacidades a tres diferentes servicios:
-                    arquitectura, diseño gráfico y desarrollo web.</p>
+                    arquitectura, diseño gráfico y desarrollo web.</h4>
             </div>
             <div class="col-xs-1"></div>
             <div class="container">
