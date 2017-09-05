@@ -30,3 +30,6 @@ Route::get('/newPost', 'BlogController@nuevoPost');
 
 /*Rutas para los perfiles*/
 Route::get('/team', 'ProfileController@index');
+
+/*Rutas para administrador*/
+Route::get('/admin-panel', 'AdminController@inicio');
