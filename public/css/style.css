@@ -1,4 +1,6 @@
 html, body, main{
+    padding: 0;
+    margin: 0;
     background-color: #193441;
 }
 
@@ -76,7 +78,6 @@ div#myModal{
     margin-top: 50px;
 }
 
-
 #arqui img{
     width: 80%;
     opacity: 0.5;
@@ -136,6 +137,7 @@ img:hover#maqueta2{
 }
 
 .div-imagen {
+    background-size: cover;
     display:inline-block;
     position:relative;
 }
@@ -143,7 +145,7 @@ img:hover#maqueta2{
 .div-imagen > div {
     position:absolute;
     top:35%;
-    left:15%;
+    left:17%;
     z-index:-1;
     padding:10px;
     margin:0;
@@ -171,6 +173,29 @@ img:hover#maqueta2{
     color: #000000;
 }
 
-div#pag-inicio{
-    size: auto;
+h2#arquitectura{
+    position: absolute;
+    top: 150px;
+    left: 20%;
+    width: 100px;
+}
+
+h2#diseniografico{
+    position: absolute;
+    top: 150px;
+    left: 35%;
+    width: 100px;
+}
+
+h2#desarrolloweb{
+    position: absolute;
+    top: 150px;
+    left: 30%;
+    width: 100px;
+}
+
+h2 span{
+    color: white;
+    letter-spacing: -1px;
+    padding: 10px;
 }
