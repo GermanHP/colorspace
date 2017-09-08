@@ -29,7 +29,6 @@
 {!! Html::style('css/team.css') !!}
 {!! Html::style('css/style.css') !!}
 
-
 <!-- Scripts -->
     <script>
         window.Laravel = {!! json_encode([

@@ -21,15 +21,16 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/', 'MainController@inicio');
+/*Rutas generales*/
 Route::get('/architecture', 'PortfolioController@arqui');
 Route::get('/design', 'PortfolioController@design');
 Route::get('/webdesign', 'PortfolioController@web');
 
-/* Rutas para Post en el blog*/
+/*Rutas del blog*/
 Route::get('/newPost', 'BlogController@nuevoPost');
 
-/*Rutas para los perfiles*/
+/*Rutas para perfiles*/
 Route::get('/team', 'ProfileController@index');
 
-/*Rutas para administrador*/
+/*Rutas para administradores y usuarios*/
 Route::get('/admin-panel', 'AdminController@inicio');

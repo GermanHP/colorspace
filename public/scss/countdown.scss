@@ -1,0 +1,26 @@
+body {
+  background-color:#39847d;
+  font-size: 14px;
+  color: white;
+}
+
+ul {
+  position:fixed;
+  top:50%;
+  left: 50%;
+  width:600px;
+  margin-top:-25px;
+  margin-left:-350px;
+  list-style:none;
+  
+  li {
+    width:24.4333%;
+    display:inline-block;
+    text-align:center;
+    
+    span {
+      font-size: 42px;
+      font-weight:bold;
+    }
+  }
+}
