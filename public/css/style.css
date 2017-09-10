@@ -3,7 +3,158 @@ html, body, main{
     margin: 0;
     background-color: #193441;
 }
+body{
+    min-width: 340px;
+}
+/* Small devices (landscape phones, 100px and up) */
+@media (min-width: 320px) {
+    div-imagen{
+        height: 515px;
+    }
+    .div-imagen > div {
+        width: 100%;
+        top:35%;
+        left:0%;
+        padding:10px;
 
+    }
+    h2#arquitectura{
+        top: 150px;
+        left: 0%;
+    }
+
+    h2#diseniografico{
+        top: 150px;
+        left: 0%;
+    }
+
+    h2#desarrolloweb{
+        top: 150px;
+        left: 0%;
+    }
+    h2#promociones{
+        top: 150px;
+        left: 0%;
+    }
+}
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 360px) {
+    div-imagen{
+        height: 540px;
+    }
+    h2#arquitectura{
+        top: 150px;
+    }
+    h2#diseniografico{
+        top: 150px;
+    }
+    h2#desarrolloweb{
+        top: 150px;
+    }
+    h2#promociones{
+        top: 150px;
+    }
+    .div-imagen > div {
+        width: 100%;
+        top:35%;
+        margin:0;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 600px) {
+    h2#arquitectura{
+        top: 20%;
+    }
+    h2#diseniografico{
+        top: 20%;
+        width: 100%;
+    }
+    h2#desarrolloweb{
+        top: 20%;
+        width: 100%;
+    }
+    h2#promociones{
+        top: 40%;
+    }
+    .div-imagen > div {
+        width: 100%;
+        top:35%;
+        left:0%;
+        padding:10px;
+    }
+    .div-imagen > div h4 {
+        font-size: 200%;
+    }
+    h2 span{
+        font-size: 200%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    h2#arquitectura{
+        top: 150px;
+    }
+
+    h2#diseniografico{
+        top: 150px;
+
+    }
+
+    h2#desarrolloweb{
+        top: 150px;
+
+    }
+    h2#promociones{
+        top: 150px;
+    }
+    .div-imagen > div {
+        top:35%;
+        left:0%;
+        padding:10px;
+        width: 100%;
+    }
+    .div-imagen > div h4 {
+        font-size: 100%;
+    }
+    h2 span{
+        font-size: 100%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    h2#arquitectura{
+        top: 150px;
+    }
+
+    h2#diseniografico{
+        top: 150px;
+
+    }
+
+    h2#desarrolloweb{
+        top: 150px;
+
+    }
+    h2#promociones{
+        top: 150px;
+    }
+    .div-imagen > div {
+
+        top:35%;
+        left:0%;
+        width: 100%;
+        padding:10px;
+    }
+    .div-imagen > div h4 {
+        font-size: 150%;
+    }
+    h2 span{
+        font-size: 100%;
+    }
+}
 nav{
  background-color: snow;
 }
@@ -144,10 +295,7 @@ img:hover#maqueta2{
 
 .div-imagen > div {
     position:absolute;
-    top:35%;
-    left:17%;
     z-index:-1;
-    padding:10px;
     margin:0;
 }
 
@@ -161,7 +309,7 @@ img:hover#maqueta2{
 }
 
 .inicio{
-    width: 110%;
+    width: 108%;
     height: auto;
 }
 
@@ -175,23 +323,25 @@ img:hover#maqueta2{
 
 h2#arquitectura{
     position: absolute;
-    top: 150px;
-    left: 20%;
-    width: 100px;
+    left: 0%;
+    width: 100%;
 }
 
 h2#diseniografico{
     position: absolute;
-    top: 150px;
-    left: 35%;
-    width: 100px;
+    left: 0%;
+    width: 100%;
 }
 
 h2#desarrolloweb{
     position: absolute;
-    top: 150px;
-    left: 30%;
-    width: 100px;
+    left: 0%;
+    width: 100%;
+}
+h2#promociones{
+    position: absolute;
+    left: 0%;
+    width: 100%;
 }
 
 h2 span{
