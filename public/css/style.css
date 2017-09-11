@@ -140,6 +140,7 @@ img:hover#maqueta2{
     background-size: cover;
     display:inline-block;
     position:relative;
+
 }
 
 .div-imagen > div {
@@ -148,7 +149,30 @@ img:hover#maqueta2{
     left:17%;
     z-index:-1;
     padding:10px;
-    margin:0;
+   /* margin:0 auto;*/ /* se agrego autoal cero que habia*/
+
+
+}
+.div-imagen>div#cont-diseño{ /*contenedor de inicio para img diseño*/
+
+    float: right;  /* clase creada para ver que ptas hago si muevo esto*/
+    margin-right: 5%;
+    margin-top: 5%;
+
+}
+
+.div-imagen>div#cont-devel{ /*contenedor de inicio para img developers*/
+
+    margin-left: 5%; /*no es flotante ni responsivo pero hay salud*/
+    margin-top: 5%;
+
+}
+
+.div-imagen>div#cont-arqui{ /*contenedor de inicio para img arqui*/
+
+    margin-left: 15%;
+    margin-top: 5%;
+
 }
 
 .desvanecer:hover {

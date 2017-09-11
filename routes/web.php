@@ -25,6 +25,9 @@ Route::get('/architecture', 'PortfolioController@arqui');
 Route::get('/design', 'PortfolioController@design');
 Route::get('/webdesign', 'PortfolioController@web');
 
+/*Rutas de ver mas*/
+Route::get('/verMas/arquiMas','VerMasController@masArqui');
+
 /* Rutas para Post en el blog*/
 Route::get('/newPost', 'BlogController@nuevoPost');
 
