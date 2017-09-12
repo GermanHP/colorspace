@@ -34,3 +34,6 @@ Route::get('/team', 'ProfileController@index');
 
 /*Rutas para administradores y usuarios*/
 Route::get('/admin-panel', 'AdminController@inicio');
+
+/*Ruta para portafolios*/
+Route::get('/porta-architecture', 'VerMasController@masArqui');
