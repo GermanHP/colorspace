@@ -1,0 +1,17 @@
+div.div-imagen{
+    height: 80%;
+    overflow: inherit;
+
+}
+
+div.descrip{
+
+    height: 20%;
+    background-color: #2B2B2B;
+    text-align: center;
+    width:100%;
+    float: none;
+
+    color: #CB9140 ;
+    margin:0;
+}
