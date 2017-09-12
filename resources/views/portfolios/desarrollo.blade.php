@@ -49,7 +49,7 @@
         <br>
         <div class="col-lg-12">
           <div class="contenedor-img-1 slide-1">
-               <img src="img/dev/wordpress.jpg" alt="" class="img-responsive-opacity" id="wordpress-page">
+               <img src="img/porta/dev/wordpress.jpg" alt="" class="img-responsive-opacity" id="wordpress-page">
                <div class="mascara">
                    <br>
                    <div class="textoCentrado">
@@ -64,7 +64,7 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="contenedor-img-2 slide-1-1">
-                 <img src="img/dev/webmedida.jpg" alt="" class="img-responsive-opacity" id="web-medida">
+                 <img src="img/porta/dev/webmedida.jpg" alt="" class="img-responsive-opacity" id="web-medida">
                  <div class="mascara-2">
                      <br>
                      <div class="textoCentrado">

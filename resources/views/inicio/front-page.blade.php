@@ -35,7 +35,7 @@
         </div>
         <div class="col-lg-3 div-imagen">
             <a href="#"><img class="desvanecer inicio" src="img/front/A4.jpg" alt=""></a>
-            <h2 id="promociones" class="text-center"><span>PROMOCIONES</span></h2><br>
+            <h2 id="promociones" class="text-center"><span>PÓXIMAMENTE</span></h2><br>
         </div>
     </div>
 @stop
