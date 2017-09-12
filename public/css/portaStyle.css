@@ -1,6 +1,7 @@
 div.div-imagen{
     height: 80%;
-    overflow: inherit;
+    overflow: hidden;
+    margin: 0;
 
 }
 
@@ -10,8 +11,7 @@ div.descrip{
     background-color: #2B2B2B;
     text-align: center;
     width:100%;
-    float: none;
-
     color: #CB9140 ;
     margin:0;
+
 }
