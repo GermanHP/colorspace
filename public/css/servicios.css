@@ -110,6 +110,9 @@
     .ocultarTexto{
         display: block;
     }
+    .portafolio-link{
+        margin-top: 0%;
+    }
 }
 
 .img-responsive-opacity{
@@ -225,4 +228,10 @@ div#moreinfo{
     background-image: url("../img/arquitectura/bigspace.jpg");
     height: 300px;
 }
+.ver-mas{
+    border-bottom: 2px solid white;
+    margin-top: 20%;
+}
+
+
 

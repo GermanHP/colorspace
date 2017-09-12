@@ -84,7 +84,9 @@
         </div>
     </div>
     <div class="row" id="moreinfo">
-        <h3 class="center-block textoH2Servicio white-text" id="portafolios">PORTAFOLIO</h3>
-        <h3 class="center-block textoH3Servicio white-text informacion-servicio" id="vermas">Ver más</h3>
+        <div class="center-block portafolio-link">
+            <h3 class="textoH2Servicio white-text"><b>PORTAFOLIO</b></h3>
+            <h3 class="text-center textoH3Servicio white-text ver-mas" >Ver más</h3>
+        </div>
     </div>
 @stop
