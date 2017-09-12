@@ -104,6 +104,6 @@
     </div>
     <div class="row" id="moreinfo">
         <h3 class="center-block textoH2Servicio white-text" id="portafolios">PORTAFOLIO</h3>
-        <h3 class="center-block textoH3Servicio white-text informacion-servicio" id="vermas">Ver más</h3>
+        <h3 class="center-block textoH3Servicio white-text informacion-servicio" id="vermas"><a href="{{url('/verMas/arquiMas')}}">Ver más</a></h3>
     </div>
 @stop
