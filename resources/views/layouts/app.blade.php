@@ -27,6 +27,7 @@
     {!! Html::style('css/servicios.css') !!}
     {!! Html::style('css/app.css') !!}
     {!! Html::style('css/style.css') !!}
+    {!! Html::style('css/portaStyle.css') !!}
 
 
     <!-- Scripts -->

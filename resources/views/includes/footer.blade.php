@@ -16,7 +16,6 @@
 
     <div class="mdl-mini-footer__right-section panel-content" id="redes">
         <a class="btn" href="https://www.facebook.com/ColorSpaceCompany/" target="_blank"><h2><i class="fa fa-facebook"></i></h2></a>
-        <a class="btn" href="#"><h2><i class="fa fa-twitter"></i></h2></a>
         <a class="btn" href="https://www.instagram.com/colorspaceco/" target="_blank"><h2><i class="fa fa-instagram"></i></h2></a>
         <a class="btn" href="#"><h2><i class="fa fa-youtube"></i></h2></a>
     </div>

@@ -226,7 +226,11 @@
                 "singularize",
                 "string"
             ],
+<<<<<<< HEAD
+            "time": "2015-11-06T14:35:42+00:00"
+=======
             "time": "2017-07-22T12:18:28+00:00"
+>>>>>>> origin/german
         },
         {
             "name": "erusev/parsedown",
@@ -1731,7 +1735,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jean-François Simon",
+                    "name": "Jean-Fran??ois Simon",
                     "email": "jeanfrancois.simon@sensiolabs.com"
                 },
                 {
@@ -2765,6 +2769,22 @@
                 "docblock",
                 "parser"
             ],
+<<<<<<< HEAD
+            "time": "2017-02-24T16:22:25+00:00"
+        },
+        {
+            "name": "doctrine/cache",
+            "version": "v1.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/cache.git",
+                "reference": "eb152c5100571c7a45470ff2a35095ab3f3b900b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/eb152c5100571c7a45470ff2a35095ab3f3b900b",
+                "reference": "eb152c5100571c7a45470ff2a35095ab3f3b900b",
+=======
             "time": "2017-07-22T10:58:02+00:00"
         },
         {
@@ -2779,6 +2799,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/doctrine/cache/zipball/b3217d58609e9c8e661cd41357a54d926c4a2a1a",
                 "reference": "b3217d58609e9c8e661cd41357a54d926c4a2a1a",
+>>>>>>> origin/german
                 "shasum": ""
             },
             "require": {
@@ -2839,7 +2860,11 @@
                 "cache",
                 "caching"
             ],
+<<<<<<< HEAD
+            "time": "2017-07-22T12:49:21+00:00"
+=======
             "time": "2017-08-25T07:02:50+00:00"
+>>>>>>> origin/german
         },
         {
             "name": "doctrine/collections",
@@ -2906,6 +2931,22 @@
                 "collections",
                 "iterator"
             ],
+<<<<<<< HEAD
+            "time": "2017-01-03T10:49:41+00:00"
+        },
+        {
+            "name": "doctrine/common",
+            "version": "v2.7.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/common.git",
+                "reference": "4acb8f89626baafede6ee5475bc5844096eba8a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/4acb8f89626baafede6ee5475bc5844096eba8a9",
+                "reference": "4acb8f89626baafede6ee5475bc5844096eba8a9",
+=======
             "time": "2017-07-22T10:37:32+00:00"
         },
         {
@@ -2920,6 +2961,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/doctrine/common/zipball/f68c297ce6455e8fd794aa8ffaf9fa458f6ade66",
                 "reference": "f68c297ce6455e8fd794aa8ffaf9fa458f6ade66",
+>>>>>>> origin/german
                 "shasum": ""
             },
             "require": {
@@ -2979,6 +3021,22 @@
                 "persistence",
                 "spl"
             ],
+<<<<<<< HEAD
+            "time": "2017-07-22T08:35:12+00:00"
+        },
+        {
+            "name": "doctrine/dbal",
+            "version": "v2.5.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/dbal.git",
+                "reference": "729340d8d1eec8f01bff708e12e449a3415af873"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/729340d8d1eec8f01bff708e12e449a3415af873",
+                "reference": "729340d8d1eec8f01bff708e12e449a3415af873",
+=======
             "time": "2017-08-31T08:43:38+00:00"
         },
         {
@@ -2993,6 +3051,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/doctrine/dbal/zipball/1a4ee83a5a709555f2c6f9057a3aacf892451c7e",
                 "reference": "1a4ee83a5a709555f2c6f9057a3aacf892451c7e",
+>>>>>>> origin/german
                 "shasum": ""
             },
             "require": {
@@ -3052,7 +3111,11 @@
                 "persistence",
                 "queryobject"
             ],
+<<<<<<< HEAD
+            "time": "2017-07-22T20:44:48+00:00"
+=======
             "time": "2017-08-28T11:02:56+00:00"
+>>>>>>> origin/german
         },
         {
             "name": "doctrine/instantiator",
@@ -3106,7 +3169,11 @@
                 "constructor",
                 "instantiate"
             ],
+<<<<<<< HEAD
+            "time": "2015-06-14T21:17:01+00:00"
+=======
             "time": "2017-07-22T11:58:36+00:00"
+>>>>>>> origin/german
         },
         {
             "name": "doctrine/lexer",
@@ -3208,7 +3275,7 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Ménager",
+                    "name": "Fabien M??nager",
                     "email": "fabien.menager@gmail.com"
                 },
                 {
@@ -3263,7 +3330,7 @@
             ],
             "authors": [
                 {
-                    "name": "François Zaninotto"
+                    "name": "Fran??ois Zaninotto"
                 }
             ],
             "description": "Faker is a PHP library that generates fake data for you.",
@@ -3539,7 +3606,7 @@
             ],
             "authors": [
                 {
-                    "name": "Pádraic Brady",
+                    "name": "P??draic Brady",
                     "email": "padraic.brady@gmail.com",
                     "homepage": "http://blog.astrumfutura.com"
                 },
@@ -3636,7 +3703,7 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Ménager",
+                    "name": "Fabien M??nager",
                     "email": "fabien.menager@gmail.com"
                 }
             ],
@@ -3673,7 +3740,7 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Ménager",
+                    "name": "Fabien M??nager",
                     "email": "fabien.menager@gmail.com"
                 }
             ],
@@ -3737,6 +3804,18 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
+<<<<<<< HEAD
+            "version": "3.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
+                "reference": "4aada1f93c72c35e22fb1383b47fee43b8f1d157"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/4aada1f93c72c35e22fb1383b47fee43b8f1d157",
+                "reference": "4aada1f93c72c35e22fb1383b47fee43b8f1d157",
+=======
             "version": "3.2.3",
             "source": {
                 "type": "git",
@@ -3747,12 +3826,17 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/86e24012a3139b42a7b71155cfaa325389f00f1f",
                 "reference": "86e24012a3139b42a7b71155cfaa325389f00f1f",
+>>>>>>> origin/german
                 "shasum": ""
             },
             "require": {
                 "php": "^7.0",
                 "phpdocumentor/reflection-common": "^1.0@dev",
+<<<<<<< HEAD
+                "phpdocumentor/type-resolver": "^0.3.0",
+=======
                 "phpdocumentor/type-resolver": "^0.4.0",
+>>>>>>> origin/german
                 "webmozart/assert": "^1.0"
             },
             "require-dev": {
@@ -3778,6 +3862,22 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
+<<<<<<< HEAD
+            "time": "2017-08-08T06:39:58+00:00"
+        },
+        {
+            "name": "phpdocumentor/type-resolver",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpDocumentor/TypeResolver.git",
+                "reference": "fb3933512008d8162b3cdf9e18dba9309b7c3773"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/fb3933512008d8162b3cdf9e18dba9309b7c3773",
+                "reference": "fb3933512008d8162b3cdf9e18dba9309b7c3773",
+=======
             "time": "2017-08-29T19:37:41+00:00"
         },
         {
@@ -3792,6 +3892,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/9c977708995954784726e25d0cd1dddf4e65b0f7",
                 "reference": "9c977708995954784726e25d0cd1dddf4e65b0f7",
+>>>>>>> origin/german
                 "shasum": ""
             },
             "require": {
@@ -3825,7 +3926,11 @@
                     "email": "me@mikevanriel.com"
                 }
             ],
+<<<<<<< HEAD
+            "time": "2017-06-03T08:32:36+00:00"
+=======
             "time": "2017-07-14T14:27:02+00:00"
+>>>>>>> origin/german
         },
         {
             "name": "phpspec/prophecy",
@@ -4137,7 +4242,11 @@
             "keywords": [
                 "tokenizer"
             ],
+<<<<<<< HEAD
+            "time": "2017-02-27T10:12:30+00:00"
+=======
             "time": "2017-08-20T05:47:52+00:00"
+>>>>>>> origin/german
         },
         {
             "name": "phpunit/phpunit",

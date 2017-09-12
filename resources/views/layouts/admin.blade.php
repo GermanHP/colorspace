@@ -70,9 +70,14 @@
 
 {!! Html::script('vendors/ckeditor/ckeditor.js') !!}
 
+<<<<<<< Updated upstream
 {!! Html::style('css/admin.css') !!}
 {!! Html::style('css/app.css') !!}
+=======
+>>>>>>> Stashed changes
 
+{!! Html::style('css/app.css') !!}
+{!! Html::style('css/style.css') !!}  // se movio style abajo de app
 
 <!-- Scripts -->
     <script>

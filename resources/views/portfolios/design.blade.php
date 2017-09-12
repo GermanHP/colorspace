@@ -1,36 +1,47 @@
 @extends('layouts.app')
+@include('includes.modals')
 @section('content')
     <div class="row" id="servicios">
         <br><br>
         <div class="col-xs-1"></div>
         <div class="col-xs-2 ajuste-servicios">
+            <a data-toggle="modal" data-target="#modalContacto">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
                 <i class="material-icons white-text">fingerprint</i>
             </button>
+            </a>
             <h5 class="white-text text-center ocultarTexto">Identidad Corporativa</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
+            <a data-toggle="modal" data-target="#modalContacto">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
                 <i class="material-icons white-text">gesture</i>
             </button>
+            </a>
             <h5 class="white-text text-center ocultarTexto">Publicidad</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
+            <a data-toggle="modal" data-target="#modalContacto">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
                 <i class="material-icons white-text">subscriptions</i>
             </button>
+            </a>
             <h5 class="white-text text-center ocultarTexto">Audiovisuales</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
+            <a data-toggle="modal" data-target="#modalContacto">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
                 <i class="material-icons white-text">insert_photo</i>
             </button>
+            </a>
             <h5 class="white-text text-center ocultarTexto">Imagen Gráfica Eventos</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
+            <a data-toggle="modal" data-target="#modalContacto">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
                 <i class="material-icons white-text">mode_edit</i>
             </button>
+                </a>
             <h5 class="white-text text-center ocultarTexto">Ilustración</h5>
         </div>
         <div class="col-xs-1"></div>

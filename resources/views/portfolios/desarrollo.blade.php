@@ -1,37 +1,48 @@
 @extends('layouts.app')
+@include('includes.modals')
 @section('content')
 
     <div class="row" id="servicios">
         <br><br>
         <div class="col-xs-1"></div>
         <div class="col-xs-2 ajuste-servicios">
+            <a data-toggle="modal" data-target="#modalContacto">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
                 <i class="material-icons white-text">computer</i>
             </button>
+            </a>
             <h5 class="white-text text-center ocultarTexto">Diseño Web a Medida</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
+            <a data-toggle="modal" data-target="#modalContacto">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
                 <i class="material-icons white-text">domain</i>
             </button>
+            </a>
             <h5 class="white-text text-center ocultarTexto">Diseños Web Corporativos</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
+            <a data-toggle="modal" data-target="#modalContacto">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
                 <i class="material-icons white-text">store_mall_directory</i>
             </button>
+            </a>
             <h5 class="white-text text-center ocultarTexto">Diseño Web PYME</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
+            <a data-toggle="modal" data-target="#modalContacto">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
                 <i class="material-icons white-text">dashboard</i>
             </button>
+            </a>
             <h5 class="white-text text-center ocultarTexto">Diseño Web Portal</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
+            <a data-toggle="modal" data-target="#modalContacto">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
                 <i class="material-icons white-text">shopping_cart</i>
             </button>
+            </a>
             <h5 class="white-text text-center ocultarTexto">Tienda Online</h5>
         </div>
         <div class="col-xs-1"></div>
