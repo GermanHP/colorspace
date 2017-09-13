@@ -58,7 +58,6 @@
 
 </head>
 <body>
-@include('includes.modals')
 <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="{{url('/')}}">
         <img id="logoColorSpace" src="img/colorspacelogo.png" alt=""></a>
@@ -80,12 +79,44 @@
             <li class="nav-item">
                 <a class="nav-link" href="{{url('/team')}}">Sobre nosotros</a>
             </li>
+
+                <!-- Authentication Links -->
+                @if (Auth::guest())
+                    <li id="loguear"><a href="#" data-toggle="modal" data-target="#modalLogin">Iniciar Sesión</a></li>
+
+                @else
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            {{ Auth::user()->nombre }} <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a href="#">Mi Perfil</a>
+                            </li>
+                            <li>
+                                <a href="{{ route('logout') }}"
+                                   onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                    Logout
+                                </a>
+
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                    {{ csrf_field() }}
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                @endif
+
         </ul>
     </div>
 </nav>
+@include('includes.modals')
 <main class="mdl-layout__content">
     <div class="page-content">
-     @yield('content')
+        @yield('content')
+
     </div>
 </main>
 

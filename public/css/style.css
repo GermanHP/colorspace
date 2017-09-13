@@ -1,4 +1,4 @@
-html, body, main{
+html, body{
     padding: 0;
     margin: 0;
     background-color: #193441;
@@ -31,17 +31,6 @@ div#services2{
     margin-left: 6%;
 }
 
-.parallax {
-    /* Set a specific height */
-    width: 100%;
-    height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 #logoColorSpace{
     height:80px;

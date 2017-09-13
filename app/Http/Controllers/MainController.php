@@ -13,4 +13,8 @@ class MainController extends Controller
     public function team(){
         return view('inicio.equipo');
     }
+
+    public function countdown(){
+        return view('inicio.count');
+    }
 }
