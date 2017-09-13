@@ -1,137 +1,51 @@
 @extends('layouts.app')
 @section('content')
 
-
-    <!--<div class="row" >
-        <br><br>
-
-        <div class="col-lg-4 ">
-            <div class="porta-img">
-                <img src="/img/porta/arqui/01adidasMetro.jpg">
+        <div class="row">
+            <div class="col-md-4">
+                <img class="imagen-porta-arqui" src="img/porta/arqui/01adidasMetro.jpg" alt="">
+                <h3 id="arquitectura" class="text-center white-text"><span>Adidas Core Metrocentro</span></h3><br>
+                <h5 id="arquitectura" class="text-center white-text"><span>Supervición - Construcción</span></h5><br>
             </div>
-
-            <div class="descrip "> <!-- este sera el prueba de descripcion
-                <h2>Titulo</h2>
-                <h4>esta sera la descripcion</h4>
-
+            <div class="col-md-4">
+                <img class="imagen-porta-arqui" src="img/porta/arqui/02adidasMulti.jpg" alt="">
+                <h3 id="arquitectura" class="text-center white-text"><span>Adidas Originals Multiplaza</span></h3><br>
+                <h5 id="arquitectura" class="text-center white-text"><span>Supervición - Construcción</span></h5><br>
             </div>
-        </div>
-
-        <div class="col-lg-4 ">
-            <div class="porta-img">
-            <img src="/img/porta/arqui/02adidasMulti.jpg">
+            <div class="col-md-4">
+                <img class="imagen-porta-arqui" src="img/porta/arqui/03adidasPerMulti.jpg" alt="">
+                <h3 id="arquitectura" class="text-center white-text"><span>Adidas Performance Multiplaza</span></h3><br>
+                <h5 id="arquitectura" class="text-center white-text"><span>Supervición - Construcción</span></h5><br>
             </div>
-            <div class="descrip "> <!-- este sera el prueba de descripcion-
-                <h2>Titulo</h2>
-                <h4>esta sera la descripcion 2</h4>
-
+            <div class="col-md-4">
+                <img class="imagen-porta-arqui" src="img/porta/arqui/04flexiSanMi.jpg" alt="">
+                <h3 id="arquitectura" class="text-center white-text"><span>Flexi San Miguel</span></h3><br>
+                <h5 id="arquitectura" class="text-center white-text"><span>Supervición - Construcción</span></h5><br>
             </div>
-        </div>
-
-        <div class="col-lg-4 ">
-            <div class="porta-img">
-                <img src="/img/porta/arqui/03adidasPerMulti.jpg">
+            <div class="col-md-4">
+                <img class="imagen-porta-arqui" src="img/porta/arqui/05reboMulti.jpg" alt="">
+                <h3 id="arquitectura" class="text-center white-text"><span>Rebook Multiplaza</span></h3><br>
+                <h5 id="arquitectura" class="text-center white-text"><span>Supervición - Construcción</span></h5><br>
             </div>
-            <div class="descrip "> <!-- este sera el prueba de descripcion--
-                <h2>Titulo</h2>
-                <h4>esta sera la descripcion03</h4>
-
+            <div class="col-md-4">
+                <img class="imagen-porta-arqui" src="img/porta/arqui/06carcamo.jpg" alt="">
+                <h3 id="arquitectura" class="text-center white-text"><span>Carcamo los naranjos</span></h3><br>
+                <h5 id="arquitectura" class="text-center white-text"><span>Diseño Arquitectónico x Supervición x Construcción</span></h5><br>
             </div>
-
-        </div>
-
-
-    </div>
-
-
-    <div class="row">
-
-        
-        <div class="col-lg-4 ">
-            <div class="porta-img">
-                <img src="/img/porta/arqui/04flexiSanMi.jpg">
+            <div class="col-md-4">
+                <img class="imagen-porta-arqui" src="img/porta/arqui/07atacoResi.jpg" alt="">
+                <h3 id="arquitectura" class="text-center white-text"><span>Ataco Residencia</span></h3><br>
+                <h5 id="arquitectura" class="text-center white-text"><span>Diseño Arquitectónico</span></h5><br>
             </div>
-            <div class="descrip "> <!-- este sera el prueba de descripcion--
-                <h2>Titulo</h2>
-                <h4>esta sera la descripcion 04</h4>
-
+            <div class="col-md-4">
+                <img class="imagen-porta-arqui" src="img/porta/arqui/08cenHallCali.jpg" alt="">
+                <h3 id="arquitectura" class="text-center white-text"><span>Cara Sucia Residencia</span></h3><br>
+                <h5 id="arquitectura" class="text-center white-text"><span>Diseño Arquitectónico</span></h5><br>
+            </div>
+            <div class="col-md-4">
+                <img class="imagen-porta-arqui" src="img/porta/arqui/09lucesResi.jpg" alt="">
+                <h3 id="arquitectura" class="text-center white-text"><span>Las Luces Residencia</span></h3><br>
+                <h5 id="arquitectura" class="text-center white-text"><span>Diseño Arquitectónico</span></h5><br>
             </div>
         </div>
-
-        <div class="col-lg-4 " >
-            <div class="porta-img">
-                <img src="/img/porta/arqui/05reboMulti.jpg">
-            </div>
-            <div class="descrip "> <!-- este sera el prueba de descripcion--
-                <h2>Titulo</h2>
-                <h4>esta sera la descripcion 05</h4>
-
-            </div>
-        </div>
-
-        <div class="col-lg-4 ">
-            <div class="porta-img">
-                <img src="/img/porta/arqui/06carcamo.jpg">
-
-            </div>
-            <div class="descrip "> <!-- este sera el prueba de descripcion--
-                <h2>Titulo</h2>
-                <h4>esta sera la descripcion06</h4>
-
-            </div>
-
-        </div>
-        
-    </div>
-
-
-
-    <div class="row">
-
-        <div class="col-lg-4 ">
-            <div class="porta-img">
-                <img src="/img/porta/arqui/07atacoResi.jpg">
-            </div>
-            <div class="descrip "> <!-- este sera el prueba de descripcion--
-                <h2>Titulo</h2>
-                <h4>esta sera la descripcion07</h4>
-
-            </div>
-         </div>
-
-        <div class="col-lg-4 ">
-            <div class="porta-img">
-                <img src="/img/porta/arqui/07caraSuResi.jpg">
-            </div>
-            <div class="descrip "> <!-- este sera el prueba de descripcion--
-                <h2>Titulo</h2>
-                <h4>esta sera la descripcion 08</h4>
-
-            </div>
-        </div>
-
-       <div class="col-lg-4 ">
-            <div class="porta-img">
-                <img src="/img/porta/arqui/08cenHallCali.jpg">
-            </div>
-           <div class="descrip "> <!-- este sera el prueba de descripcion--
-               <h2>Titulo</h2>
-               <h4>esta sera la descripcion 09</h4>
-
-           </div>
-        </div>
-    </div>
--->
-
-    <!-- esta es una segunda prueba a ver que mamada movi XD-->
-
-    <>
-
-
-
-
-
-
-
-
-    @stop
+@stop
