@@ -21,7 +21,6 @@ class CreateUsersTable extends Migration
             $table->String('fechaDeNacimiento');
             $table->boolean('resetPassword');
             $table->string('email')->unique();
-            $table->string('DUI')->nullable();
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
