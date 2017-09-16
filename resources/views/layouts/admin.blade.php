@@ -70,14 +70,14 @@
 
 {!! Html::script('vendors/ckeditor/ckeditor.js') !!}
 
-<<<<<<< Updated upstream
+
 {!! Html::style('css/admin.css') !!}
 {!! Html::style('css/app.css') !!}
-=======
->>>>>>> Stashed changes
+
+
 
 {!! Html::style('css/app.css') !!}
-{!! Html::style('css/style.css') !!}  // se movio style abajo de app
+{!! Html::style('css/style.css') !!}
 
 <!-- Scripts -->
     <script>
@@ -105,7 +105,17 @@
                     for="demo-menu-lower-right">
                     <li class="mdl-menu__item">Detalles de mi cuenta</li>
                     <li class="mdl-menu__item">Reestablecer contraseña</li>
-                    <li class="mdl-menu__item">Cerrar serión</li>
+                    <li class="mdl-menu__item">
+                        <a href="{{ route('logout') }}"
+                           onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                            Cerrar Sesión
+                        </a>
+
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            {{ csrf_field() }}
+                        </form>
+                    </li>
                 </ul>
             </div>
         </div>
