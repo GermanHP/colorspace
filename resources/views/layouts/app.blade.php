@@ -72,7 +72,7 @@
                 <a class="nav-link" href="{{url('/team')}}">Sobre nosotros</a>
             </li>
 
-                <!-- Authentication Links -->
+                <!-- Authentication Links
                 @if (Auth::guest())
                     <li id="loguear"><a href="#" data-toggle="modal" data-target="#modalLogin">Iniciar Sesión</a></li>
 
@@ -99,7 +99,7 @@
                             </li>
                         </ul>
                     </li>
-                @endif
+                @endif-->
 
         </ul>
     </div>

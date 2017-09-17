@@ -66,7 +66,7 @@
                     <h3 class="white-text  bg-equipo text-center"><strong>Arquitecto</strong></h3>
                 </div>
                 <div class="col-xs-6">
-                    <h3 class="white-text pull-right">Dennys Bautista</h3>
+                    <h3 class="white-text pull-right">Denys Bautista</h3>
                 </div>
                 <div class="col-xs-6">
                     <h3 class="white-text  bg-equipo text-center"><strong>Arquitecto</strong></h3>
