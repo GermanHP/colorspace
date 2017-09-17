@@ -53,7 +53,7 @@
                    <br>
                    <div class="textoCentrado">
                        <h2 class="white-text textoH2Servicio textoServicio">ANIMACION DIGITAL</h2>
-                       <a href="#" class="informacion-servicio textoServicio">Informacion</a>
+                       <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">Informacion</a>
                    </div>
                </div>
           </div>
@@ -69,7 +69,7 @@
                      <br>
                      <div class="textoCentrado">
                          <h2 class="white-text textoH2Servicio textoServicio">SPACE CLOTHING</h2>
-                         <a href="#" class="informacion-servicio textoServicio">Informacion</a>
+                         <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">Informacion</a>
                      </div>
                  </div>
             </div>
@@ -84,7 +84,7 @@
                    <br>
                    <div class="textoCentrado">
                        <h2 class="white-text textoH2Servicio textoServicio">DISEÑO PUBLICITARIO</h2>
-                       <a href="#" class="informacion-servicio textoServicio">Informacion</a>
+                       <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">Informacion</a>
                    </div>
                </div>
           </div>
@@ -100,7 +100,7 @@
                      <br>
                      <div class="textoCentrado">
                          <h2 class="white-text textoH2Servicio textoServicio">PHOTO SPACE</h2>
-                         <a href="#" class="informacion-servicio textoServicio">Informacion</a>
+                         <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">Informacion</a>
                      </div>
                  </div>
             </div>

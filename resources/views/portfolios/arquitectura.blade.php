@@ -46,7 +46,7 @@
                    <div class="textoCentrado">
                        <h2 class="white-text textoH2Servicio textoServicio"><strong>ILUMINACIÓN</strong></h2>
                        <h3 class="white-text textoH3Servicio textoServicio">INTERIOR/EXTERIOR</h3>
-                       <a href="#" class="informacion-servicio textoServicio">Informacion</a>
+                       <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">Informacion</a>
                    </div>
                </div>
           </div>
@@ -62,7 +62,7 @@
                      <div class="textoCentrado">
                          <h2 class="white-text textoH2Servicio textoServicio"><strong>COLOR DE ESPACIOS</strong></h2>
                          <h3 class="white-text textoH3Servicio textoServicio">INTERIOR/EXTERIOR</h3>
-                         <a href="#" class="informacion-servicio textoServicio">Informacion</a>
+                         <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">Informacion</a>
                      </div>
                  </div>
             </div>
@@ -77,7 +77,7 @@
                    <div class="textoCentrado">
                        <h2 class="white-text textoH2Servicio textoServicio"><strong>DISEÑO</strong></h2>
                        <h3 class="white-text textoH3Servicio textoServicio">ARQUITECTÓNICO</h3>
-                       <a href="#" class="informacion-servicio textoServicio">Informacion</a>
+                       <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">Informacion</a>
                    </div>
                </div>
           </div>
