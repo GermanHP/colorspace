@@ -3,12 +3,18 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="google-site-verification" content="aScgXuIENeIk0WL0rIM53VZjQb2nNXUrxG9ZlDDK81g" />
+    <meta name="keywords" content="arquitectura el salvador, desarrollo web el salvador, diseño gráfico el salvador, animación el salvador">
+    <meta name="description" content="Desarrollo de sitios web, Diseño arquitectónico, Diseño publicitario, Animación digital">
+    <meta name="author" content="colorspaceco.com">
+    <meta name="owner" content="Color Space Company">
+    <meta name="robots" content="index, follow">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Laravel') }} - Arquitectura x Desarrollo Web x Diseño Gráfico</title>
 
     <!-- Styles -->
     {!! Html::style('https://fonts.googleapis.com/icon?family=Material+Icons') !!}
@@ -47,6 +53,19 @@
         ga('send', 'pageview');
 
     </script>
+
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Color Space Company",
+          "url": "http://www.colorspaceco.com",
+          "sameAs": [
+            "https://www.facebook.com/ColorSpaceCompany/",
+            "https://www.instagram.com/colorspaceco/"
+          ]
+        }
+</script>
 
 </head>
 <body>
