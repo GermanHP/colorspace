@@ -79,21 +79,21 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="nav  justify-content-end">
             <li class="nav-item active">
-                <a class="nav-link" href="{{url('/')}}">Inicio</a>
+                <a class="nav-link" href="{{url('/')}}">{{trans('front.start')}}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Promociones</a>
+                <a class="nav-link" href="#">{{trans('front.prom')}}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" data-toggle="modal" data-target="#modalContacto">Escríbenos</a>
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#modalContacto">{{trans('front.write')}}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{url('/team')}}">Sobre nosotros</a>
+                <a class="nav-link" href="{{url('/team')}}">{{trans('front.about')}}</a>
             </li>
 
                 <!-- Authentication Links
                 @if (Auth::guest())
-                    <li id="loguear"><a href="#" data-toggle="modal" data-target="#modalLogin">Iniciar Sesión</a></li>
+                    <li id="loguear"><a href="#" data-toggle="modal" data-target="#modalLogin">{{trans('auth.inicio')}}</a></li>
 
                 @else
                     <li class="dropdown">
@@ -119,7 +119,8 @@
                         </ul>
                     </li>
                 @endif-->
-
+                        <li><a href="{{url('lang', ['en'])}}">En</a></li>
+                        <li><a href="{{url('lang', ['es'])}}">Es</a></li>
         </ul>
     </div>
 </nav>

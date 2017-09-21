@@ -1,0 +1,26 @@
+<?php
+
+return[
+    'start'=>'Inicio',
+    'prom'=>'Promociones',
+    'write'=>'Escríbenos',
+    'about'=>'Sobre Nosotros',
+    'arq'=>'ARQUITECTURA',
+    'interior'=>'Diseño Interior',
+    'const'=>'Construcción',
+    'remo'=>'Remodelación',
+    'inmo'=>'Inmobiliaria',
+    'des'=>'DISEÑO GRÁFICO',
+    'identiCorp'=>'Identidad Corporativa',
+    'publi'=>'Publicidad',
+    'audiovi'=>'Audiovisual',
+    'imgGraph'=>'Imagen Gráfica de Eventos',
+    'ilustrar'=>'Ilustración',
+    'desWeb'=>'DESARROLLO WEB',
+    'desWebMed'=>'Diseño Web a La Medida',
+    'desWebCorp'=>'Diseños Corporativos',
+    'desWebPYME'=>'Diseño Web PYME',
+    'desWebPort'=>'Diseño Web Portal',
+    'desWebOn'=>'Tienda en Línea',
+    'prox'=>'PRÓXIMAMENTE',
+];

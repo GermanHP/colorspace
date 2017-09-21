@@ -79,17 +79,48 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="nav  justify-content-end">
             <li class="nav-item active">
-                <a class="nav-link" href="{{url('/')}}">Inicio</a>
+                <a class="nav-link" href="{{url('/')}}">{{trans('front.start')}}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Promociones</a>
+                <a class="nav-link" href="#">{{trans('front.prom')}}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" data-toggle="modal" data-target="#modalContacto">Escríbenos</a>
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#modalContacto">{{trans('front.write')}}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{url('/team')}}">Sobre nosotros</a>
+                <a class="nav-link" href="{{url('/team')}}">{{trans('front.about')}}</a>
             </li>
+
+        <!-- Authentication Links
+                @if (Auth::guest())
+            <li id="loguear"><a href="#" data-toggle="modal" data-target="#modalLogin">{{trans('auth.inicio')}}</a></li>
+
+                @else
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+{{ Auth::user()->nombre }} <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a href="#">Mi Perfil</a>
+                            </li>
+                            <li>
+                                <a href="{{ route('logout') }}"
+                                   onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                    Cerrar Sesión
+                                </a>
+
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                    {{ csrf_field() }}
+                    </form>
+                </li>
+            </ul>
+        </li>
+    @endif-->
+                <li><a href="{{url('lang', ['en'])}}">En</a></li>
+                <li><a href="{{url('lang', ['es'])}}">Es</a></li>
         </ul>
     </div>
 </nav>
