@@ -20,17 +20,32 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/', 'MainController@inicio');
-/*Rutas generales*/
-Route::get('/architecture', 'PortfolioController@arqui');
-Route::get('/design', 'PortfolioController@design');
-Route::get('/webdesign', 'PortfolioController@web');
+Route::group(['middleware' =>['web']], function (){
+    Route::get('/', 'MainController@inicio');
 
-/*Rutas del blog*/
-Route::get('/newPost', 'BlogController@nuevoPost');
+    /*Ruta para variable de sesión*/
+    Route::get('lang/{lang}', function($lang){
+        session(['lang' => $lang]);
+        return redirect()->back();
+    })->where([
+        'lang' => 'en|es'
+    ]);
 
-/*Rutas para perfiles*/
-Route::get('/team', 'ProfileController@index');
+    /*Rutas generales*/
+    Route::get('/architecture', 'PortfolioController@arqui');
+    Route::get('/design', 'PortfolioController@design');
+    Route::get('/webdesign', 'PortfolioController@web');
+
+    /*Rutas del blog*/
+    Route::get('/newPost', 'BlogController@nuevoPost');
+
+    /*Rutas para perfiles*/
+    Route::get('/team', 'ProfileController@index');
+
+    /*Ruta para portafolios*/
+    Route::get('/porta-architecture', 'VerMasController@masArqui');
+});
+
 
 /*Rutas para administradores y usuarios*/
 Route::group(['middleware' => ['auth']], function () {
@@ -38,5 +53,3 @@ Route::get('/admin-panel', 'AdminController@inicio');
 
 });
 
-/*Ruta para portafolios*/
-Route::get('/porta-architecture', 'VerMasController@masArqui');
