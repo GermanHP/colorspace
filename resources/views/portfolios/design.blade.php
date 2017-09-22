@@ -10,7 +10,7 @@
                 <i class="material-icons white-text">fingerprint</i>
             </button>
             </a>
-            <h5 class="white-text text-center ocultarTexto">Identidad Corporativa</h5>
+            <h5 class="white-text text-center ocultarTexto">{{trans('front.identiCorp')}}</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
             <a data-toggle="modal" data-target="#modalContacto">
@@ -18,7 +18,7 @@
                 <i class="material-icons white-text">gesture</i>
             </button>
             </a>
-            <h5 class="white-text text-center ocultarTexto">Publicidad</h5>
+            <h5 class="white-text text-center ocultarTexto">{{trans('front.publi')}}</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
             <a data-toggle="modal" data-target="#modalContacto">
@@ -26,7 +26,7 @@
                 <i class="material-icons white-text">subscriptions</i>
             </button>
             </a>
-            <h5 class="white-text text-center ocultarTexto">Audiovisuales</h5>
+            <h5 class="white-text text-center ocultarTexto">{{trans('front.audiovi')}}</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
             <a data-toggle="modal" data-target="#modalContacto">
@@ -34,7 +34,7 @@
                 <i class="material-icons white-text">insert_photo</i>
             </button>
             </a>
-            <h5 class="white-text text-center ocultarTexto">Imagen Gráfica Eventos</h5>
+            <h5 class="white-text text-center ocultarTexto">{{trans('front.imgGraph')}}</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
             <a data-toggle="modal" data-target="#modalContacto">
@@ -42,7 +42,7 @@
                 <i class="material-icons white-text">mode_edit</i>
             </button>
                 </a>
-            <h5 class="white-text text-center ocultarTexto">Ilustración</h5>
+            <h5 class="white-text text-center ocultarTexto">{{trans('front.ilustrar')}}</h5>
         </div>
         <div class="col-xs-1"></div>
         <br>
@@ -52,8 +52,8 @@
                <div class="mascara">
                    <br>
                    <div class="textoCentrado">
-                       <h2 class="white-text textoH2Servicio textoServicio">ANIMACION DIGITAL</h2>
-                       <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">Informacion</a>
+                       <h2 class="white-text textoH2Servicio textoServicio">{{trans('design.anima')}}</h2>
+                       <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">{{trans('general.info')}}</a>
                    </div>
                </div>
           </div>
@@ -69,7 +69,7 @@
                      <br>
                      <div class="textoCentrado">
                          <h2 class="white-text textoH2Servicio textoServicio">SPACE CLOTHING</h2>
-                         <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">Informacion</a>
+                         <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">{{trans('general.info')}}</a>
                      </div>
                  </div>
             </div>
@@ -83,8 +83,8 @@
                <div class="mascara">
                    <br>
                    <div class="textoCentrado">
-                       <h2 class="white-text textoH2Servicio textoServicio">DISEÑO PUBLICITARIO</h2>
-                       <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">Informacion</a>
+                       <h2 class="white-text textoH2Servicio textoServicio">{{trans('design.pubDes')}}</h2>
+                       <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">{{trans('general.info')}}</a>
                    </div>
                </div>
           </div>
@@ -100,10 +100,16 @@
                      <br>
                      <div class="textoCentrado">
                          <h2 class="white-text textoH2Servicio textoServicio">PHOTO SPACE</h2>
-                         <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">Informacion</a>
+                         <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">{{trans('general.info')}}</a>
                      </div>
                  </div>
             </div>
+        </div>
+    </div>
+    <div class="row" id="moreinfo">
+        <div class="center-block">
+            <h3 class="textoH2Servicio white-text"><b>{{trans('general.porta')}}</b></h3>
+            <h3 class="text-center textoH3Servicio white-text ver-mas">{{trans('general.ver')}}</h3>
         </div>
     </div>
 
