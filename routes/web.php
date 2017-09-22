@@ -44,12 +44,18 @@ Route::group(['middleware' =>['web']], function (){
 
     /*Ruta para portafolios*/
     Route::get('/porta-architecture', 'VerMasController@masArqui');
+
+    /*Ruta para el blog temporal*/
+    Route::get('/blog','BlogTempController@blogTemp');
 });
 
 
 /*Rutas para administradores y usuarios*/
 Route::group(['middleware' => ['auth']], function () {
 Route::get('/admin-panel', 'AdminController@inicio');
+
+
+
 
 });
 
