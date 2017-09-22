@@ -5,35 +5,43 @@
         <br><br>
         <div class="col-xs-1"></div>
         <div class="col-xs-2 ajuste-servicios">
+            <a data-toggle="modal" data-target="#modalContacto">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
                 <i class="material-icons white-text">format_paint</i>
             </button>
+            </a>
             <h5 class="white-text text-center ocultarTexto">Color de Espacios</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
+            <a data-toggle="modal" data-target="#modalContacto">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
             <i class="material-icons white-text">tonality</i>
             </button>
+            </a>
             <h5 class="white-text text-center ocultarTexto">Diseño Interior</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
+            <a data-toggle="modal" data-target="#modalContacto">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
             <i class="material-icons white-text">assessment</i>
-            </button>
+            </button></a>
             <h5 class="white-text text-center ocultarTexto">Construcción</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
+            <a data-toggle="modal" data-target="#modalContacto">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
             <i class="material-icons white-text">extension</i>
-            </button>
+            </button></a>
             <h5 class="white-text text-center ocultarTexto">
                 Remodelación
             </h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
+            <a data-toggle="modal" data-target="#modalContacto">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
             <i class="material-icons white-text">home</i>
             </button>
+            </a>
             <h5 class="white-text text-center ocultarTexto">Inmobiliaria</h5>
         </div>
         <div class="col-xs-1"></div>

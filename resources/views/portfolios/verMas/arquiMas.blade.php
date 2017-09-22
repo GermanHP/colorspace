@@ -2,50 +2,84 @@
 @section('content')
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4" >
+
                 <img class="imagen-porta-arqui" src="img/porta/arqui/01adidasMetro.jpg" alt="">
-                <h3 id="arquitectura" class="text-center white-text"><span>Adidas Core Metrocentro</span></h3><br>
-                <h5 id="arquitectura" class="text-center white-text"><span>Supervición - Construcción</span></h5><br>
+                <div class="cont-porta">
+                <h3 id="arquitectura" class="text-center "><span>Adidas Core Metrocentro</span></h3><br>
+                <h5 id="arquitectura" class="text-center up-inter"><span>Supervición - Construcción</span></h5><br>
+                </div>
             </div>
             <div class="col-md-4">
+
                 <img class="imagen-porta-arqui" src="img/porta/arqui/02adidasMulti.jpg" alt="">
-                <h3 id="arquitectura" class="text-center white-text"><span>Adidas Originals Multiplaza</span></h3><br>
-                <h5 id="arquitectura" class="text-center white-text"><span>Supervición - Construcción</span></h5><br>
+
+                <div class="cont-porta">
+                <h3 id="arquitectura" class="text-center "><span>Adidas Originals Multiplaza</span></h3><br>
+                <h5 id="arquitectura" class="text-center up-inter "><span>Supervición - Construcción</span></h5><br>
+                </div>
             </div>
             <div class="col-md-4">
+                <a href="img/porta/arqui/03adidasPerMulti.jpg " data-toggle="lightbox">
                 <img class="imagen-porta-arqui" src="img/porta/arqui/03adidasPerMulti.jpg" alt="">
-                <h3 id="arquitectura" class="text-center white-text"><span>Adidas Performance Multiplaza</span></h3><br>
-                <h5 id="arquitectura" class="text-center white-text"><span>Supervición - Construcción</span></h5><br>
+                </a>
+                <div class="cont-porta">
+                <h3 id="arquitectura" class="text-center "><span>Adidas Performance Multiplaza</span></h3><br>
+                <h5 id="arquitectura" class="text-center up-inter "><span>Supervición - Construcción</span></h5><br>
+                </div>
             </div>
             <div class="col-md-4">
                 <img class="imagen-porta-arqui" src="img/porta/arqui/04flexiSanMi.jpg" alt="">
-                <h3 id="arquitectura" class="text-center white-text"><span>Flexi San Miguel</span></h3><br>
-                <h5 id="arquitectura" class="text-center white-text"><span>Supervición - Construcción</span></h5><br>
+                <div class="cont-porta">
+                <h3 id="arquitectura" class="text-center "><span>Flexi San Miguel</span></h3><br>
+                <h5 id="arquitectura" class="text-center up-inter"><span>Supervición - Construcción</span></h5><br>
+                </div>
             </div>
             <div class="col-md-4">
                 <img class="imagen-porta-arqui" src="img/porta/arqui/05reboMulti.jpg" alt="">
-                <h3 id="arquitectura" class="text-center white-text"><span>Rebook Multiplaza</span></h3><br>
-                <h5 id="arquitectura" class="text-center white-text"><span>Supervición - Construcción</span></h5><br>
+                <div class="cont-porta">
+                <h3 id="arquitectura" class="text-center "><span>Rebook Multiplaza</span></h3><br>
+                <h5 id="arquitectura" class="text-center up-inter "><span>Supervición - Construcción</span></h5><br>
+                </div>
             </div>
             <div class="col-md-4">
                 <img class="imagen-porta-arqui" src="img/porta/arqui/06carcamo.jpg" alt="">
-                <h3 id="arquitectura" class="text-center white-text"><span>Carcamo los naranjos</span></h3><br>
-                <h5 id="arquitectura" class="text-center white-text"><span>Diseño Arquitectónico x Supervición x Construcción</span></h5><br>
+                <div class="cont-porta">
+                <h3 id="arquitectura" class="text-center "><span>Carcamo los naranjos</span></h3><br>
+                <h5 id="arquitectura" class="text-center up-inter "><span>Diseño Arquitectónico x Supervición x Construcción</span></h5><br>
+                </div>
             </div>
             <div class="col-md-4">
                 <img class="imagen-porta-arqui" src="img/porta/arqui/07atacoResi.jpg" alt="">
-                <h3 id="arquitectura" class="text-center white-text"><span>Ataco Residencia</span></h3><br>
-                <h5 id="arquitectura" class="text-center white-text"><span>Diseño Arquitectónico</span></h5><br>
+                <div class="cont-porta">
+                <h3 id="arquitectura" class="text-center "><span>Ataco Residencia</span></h3><br>
+                <h5 id="arquitectura" class="text-center up-inter "><span>Diseño Arquitectónico</span></h5><br>
+                </div>
             </div>
             <div class="col-md-4">
                 <img class="imagen-porta-arqui" src="img/porta/arqui/08cenHallCali.jpg" alt="">
-                <h3 id="arquitectura" class="text-center white-text"><span>Cara Sucia Residencia</span></h3><br>
-                <h5 id="arquitectura" class="text-center white-text"><span>Diseño Arquitectónico</span></h5><br>
+                <div class="cont-porta">
+                <h3 id="arquitectura" class="text-center "><span>Cara Sucia Residencia</span></h3><br>
+                <h5 id="arquitectura" class="text-center up-inter "><span>Diseño Arquitectónico</span></h5><br>
+                </div>
             </div>
             <div class="col-md-4">
                 <img class="imagen-porta-arqui" src="img/porta/arqui/09lucesResi.jpg" alt="">
-                <h3 id="arquitectura" class="text-center white-text"><span>Las Luces Residencia</span></h3><br>
-                <h5 id="arquitectura" class="text-center white-text"><span>Diseño Arquitectónico</span></h5><br>
+                <div class="cont-porta">
+                <h3 id="arquitectura" class="text-center "><span>Las Luces Residencia</span></h3><br>
+                <h5 id="arquitectura" class="text-center up-inter "><span>Diseño Arquitectónico</span></h5><br>
+                </div>
             </div>
         </div>
+
+        <script>
+            $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+        </script>
+
+
+
+
 @stop
