@@ -122,8 +122,8 @@
                         </ul>
                     </li>
                 @endif-->
-                        <li><a href="{{url('lang', ['en'])}}">En</a></li>
-                        <li><a href="{{url('lang', ['es'])}}">Es</a></li>
+                        <li><a href="{{url('lang', ['en'])}}"><img src="img/english.jpg" height="20" width="40" alt="">En</a></li>
+                        <li><a href="{{url('lang', ['es'])}}"><img src="img/spanish.jpg" height="20" width="40" alt="">Es</a></li>
         </ul>
     </div>
 </nav>
