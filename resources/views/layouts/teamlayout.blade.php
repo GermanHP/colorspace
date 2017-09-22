@@ -90,6 +90,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="{{url('/team')}}">{{trans('front.about')}}</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{url('/blog')}}">Blog</a>
+            </li>
 
         <!-- Authentication Links
                 @if (Auth::guest())

@@ -5,44 +5,36 @@
         <br><br>
         <div class="col-xs-1"></div>
         <div class="col-xs-2 ajuste-servicios">
-            <a data-toggle="modal" data-target="#modalContacto">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
                 <i class="material-icons white-text">format_paint</i>
             </button>
-            </a>
-            <h5 class="white-text text-center ocultarTexto">Color de Espacios</h5>
+            <h5 class="white-text text-center ocultarTexto">{{trans('arqui.colorEsp')}}</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
-            <a data-toggle="modal" data-target="#modalContacto">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
             <i class="material-icons white-text">tonality</i>
             </button>
-            </a>
-            <h5 class="white-text text-center ocultarTexto">Diseño Interior</h5>
+            <h5 class="white-text text-center ocultarTexto">{{trans('arqui.interior')}}</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
-            <a data-toggle="modal" data-target="#modalContacto">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
             <i class="material-icons white-text">assessment</i>
-            </button></a>
-            <h5 class="white-text text-center ocultarTexto">Construcción</h5>
+            </button>
+            <h5 class="white-text text-center ocultarTexto">{{trans('arqui.const')}}</h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
-            <a data-toggle="modal" data-target="#modalContacto">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
             <i class="material-icons white-text">extension</i>
-            </button></a>
+            </button>
             <h5 class="white-text text-center ocultarTexto">
-                Remodelación
+                {{trans('arqui.remo')}}
             </h5>
         </div>
         <div class="col-xs-2 ajuste-servicios">
-            <a data-toggle="modal" data-target="#modalContacto">
             <button class="mdl-button mdl-js-button mdl-button--fab center-block">
             <i class="material-icons white-text">home</i>
             </button>
-            </a>
-            <h5 class="white-text text-center ocultarTexto">Inmobiliaria</h5>
+            <h5 class="white-text text-center ocultarTexto">{{trans('arqui.inmo')}}</h5>
         </div>
         <div class="col-xs-1"></div>
         <br>
@@ -52,9 +44,9 @@
                <div class="mascara">
                    <br>
                    <div class="textoCentrado">
-                       <h2 class="white-text textoH2Servicio textoServicio"><strong>ILUMINACIÓN</strong></h2>
-                       <h3 class="white-text textoH3Servicio textoServicio">INTERIOR/EXTERIOR</h3>
-                       <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">Informacion</a>
+                       <h2 class="white-text textoH2Servicio textoServicio"><strong>{{trans('arqui.ilumi')}}</strong></h2>
+                       <h3 class="white-text textoH3Servicio textoServicio">{{trans('general.inEx')}}</h3>
+                       <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">{{trans('general.info')}}</a>
                    </div>
                </div>
           </div>
@@ -68,9 +60,9 @@
                  <div class="mascara-2">
                      <br>
                      <div class="textoCentrado">
-                         <h2 class="white-text textoH2Servicio textoServicio"><strong>COLOR DE ESPACIOS</strong></h2>
-                         <h3 class="white-text textoH3Servicio textoServicio">INTERIOR/EXTERIOR</h3>
-                         <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">Informacion</a>
+                         <h2 class="white-text textoH2Servicio textoServicio"><strong>{{trans('arqui.spaceCo')}}</strong></h2>
+                         <h3 class="white-text textoH3Servicio textoServicio">{{trans('general.inEx')}}</h3>
+                         <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">{{trans('general.info')}}</a>
                      </div>
                  </div>
             </div>
@@ -83,9 +75,9 @@
                <div class="mascara">
                    <br>
                    <div class="textoCentrado">
-                       <h2 class="white-text textoH2Servicio textoServicio"><strong>DISEÑO</strong></h2>
-                       <h3 class="white-text textoH3Servicio textoServicio">ARQUITECTÓNICO</h3>
-                       <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">Informacion</a>
+                       <h2 class="white-text textoH2Servicio textoServicio"><strong>{{trans('arqui.design')}}</strong></h2>
+                       <h3 class="white-text textoH3Servicio textoServicio">{{trans('arqui.arqDes')}}</h3>
+                       <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">{{trans('general.info')}}</a>
                    </div>
                </div>
           </div>
@@ -93,8 +85,8 @@
     </div>
     <div class="row" id="moreinfo">
         <div class="center-block portafolio-link">
-            <h3 class="textoH2Servicio white-text"><b>PORTAFOLIO</b></h3>
-            <a href="{{url('/porta-architecture')}}"><h3 class="text-center textoH3Servicio white-text ver-mas" >Ver más</h3></a>
+            <h3 class="textoH2Servicio white-text"><b>{{trans('general.porta')}}</b></h3>
+            <a href="{{url('/porta-architecture')}}"><h3 class="text-center textoH3Servicio white-text ver-mas" >{{trans('general.ver')}}</h3></a>
         </div>
     </div>
 @stop
