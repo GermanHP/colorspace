@@ -5,7 +5,8 @@
             <img id="logoColorSpace2" src="img/logospace.png" alt="">
         </a>
         <div class="mdl-logo">
-           Color Space &copy; 2017
+           Color Space &copy; 2017 <br>
+            El Salvador - Italy
         </div>
         <ul class="mdl-mini-footer__link-list">
             <li><a href="#">Help</a></li>

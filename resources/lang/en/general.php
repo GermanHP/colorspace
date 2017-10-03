@@ -1,7 +1,8 @@
 <?php
 return[
     'info'=>'Information',
-    'inEx'=>'INSIDE/OUTSIDE',
+    'inEx'=>'INDOOR/OUTDOOR',
     'porta'=>'PORTFOLIO',
     'ver'=>'See more',
+    'lang'=>'Idioma',
 ];
