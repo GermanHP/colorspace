@@ -39,67 +39,67 @@
                     <h3 class="white-text pull-right">Alejandro Rodríguez</h3>
                 </div>
                 <div class="col-xs-6">
-                    <h3 class="white-text bg-equipo text-center"><strong>{{trans('team.arquiDes')}}</strong></h3>
+                    <h3 class="white-text bg-equipo text-center"><strong>CEO</strong></h3>
                 </div>
                 <div class="col-xs-6">
                     <h3 class="white-text pull-right">Josseline Mejía</h3>
                 </div>
                 <div class="col-xs-6">
-                    <h3 class="white-text  bg-equipo text-center"><strong>{{trans('team.arquia')}}</strong></h3>
+                    <h3 class="white-text  bg-equipo text-center"><strong>Project Developer</strong></h3>
                 </div>
                 <div class="col-xs-6">
                     <h3 class="white-text pull-right">Gustavo Chámul</h3>
                 </div>
                 <div class="col-xs-6">
-                    <h3 class="white-text  bg-equipo text-center"><strong>{{trans('team.arqui')}}</strong></h3>
+                    <h3 class="white-text  bg-equipo text-center"><strong>COO/Architecture</strong></h3>
                 </div>
                 <div class="col-xs-6">
                     <h3 class="white-text pull-right">Kevin Rivera</h3>
                 </div>
                 <div class="col-xs-6">
-                    <h3 class="white-text  bg-equipo text-center"><strong>{{trans('team.arqui')}}</strong></h3>
+                    <h3 class="white-text  bg-equipo text-center"><strong>Senior Project Manager</strong></h3>
                 </div>
                 <div class="col-xs-6">
                     <h3 class="white-text pull-right">Denys Bautista</h3>
                 </div>
                 <div class="col-xs-6">
-                    <h3 class="white-text  bg-equipo text-center"><strong>{{trans('team.arqui')}}</strong></h3>
+                    <h3 class="white-text  bg-equipo text-center"><strong>Bussines Officer</strong></h3>
                 </div>
                 <div class="col-xs-6">
                     <h3 class="white-text pull-right">German Hernández</h3>
                 </div>
                 <div class="col-xs-6">
-                    <h3 class="white-text  bg-equipo text-center"><strong>{{trans('team.dev')}}</strong></h3>
+                    <h3 class="white-text  bg-equipo text-center"><strong>Senior Project Manager</strong></h3>
                 </div>
                 <div class="col-xs-6">
                     <h3 class="white-text pull-right">Gabriel Ábrego</h3>
                 </div>
                 <div class="col-xs-6">
-                    <h3 class="white-text  bg-equipo text-center"><strong>{{trans('team.dev')}}</strong></h3>
+                    <h3 class="white-text  bg-equipo text-center"><strong>COO/Multimedia</strong></h3>
                 </div>
                 <div class="col-xs-6">
                     <h3 class="white-text pull-right">José Anzora</h3>
                 </div>
                 <div class="col-xs-6">
-                    <h3 class="white-text  bg-equipo text-center"><strong>{{trans('team.dev')}}</strong></h3>
+                    <h3 class="white-text  bg-equipo text-center"><strong>System Developer</strong></h3>
                 </div>
                 <div class="col-xs-6">
                     <h3 class="white-text pull-right">José Barrera</h3>
                 </div>
                 <div class="col-xs-6">
-                    <h3 class="white-text  bg-equipo text-center"><strong>{{trans('team.design')}}</strong></h3>
+                    <h3 class="white-text  bg-equipo text-center"><strong>Creative Director</strong></h3>
                 </div>
                 <div class="col-xs-6">
                     <h3 class="white-text pull-right">Katherine Fernández</h3>
                 </div>
                 <div class="col-xs-6">
-                    <h3 class="white-text  bg-equipo text-center"><strong>{{trans('team.designa')}}</strong></h3>
+                    <h3 class="white-text  bg-equipo text-center"><strong>CAO</strong></h3>
                 </div>
                 <div class="col-xs-6">
                     <h3 class="white-text pull-right">Christian González</h3>
                 </div>
                 <div class="col-xs-6">
-                    <h3 class="white-text  bg-equipo text-center"><strong>{{trans('team.design')}}</strong></h3>
+                    <h3 class="white-text  bg-equipo text-center"><strong>CMO</strong></h3>
                 </div>
                 <br>
             </div>
