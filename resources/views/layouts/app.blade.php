@@ -122,8 +122,15 @@
                         </ul>
                     </li>
                 @endif-->
-                        <li><a href="{{url('lang', ['en'])}}"><img src="img/english.jpg" height="20" width="40" alt="">En</a></li>
-                        <li><a href="{{url('lang', ['es'])}}"><img src="img/spanish.jpg" height="20" width="40" alt="">Es</a></li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{trans('general.lang')}}</a>
+
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="{{url('lang', ['en'])}}">English</a></li>
+                                <li><a href="{{url('lang', ['es'])}}">Español</a></li>
+                            </ul>
+                        </li>
         </ul>
     </div>
 </nav>

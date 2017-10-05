@@ -6,7 +6,7 @@ return[
     'write'=>'Contact Us',
     'about'=>'About Us',
     'arq'=>'ARCHITECTURE',
-    'interior'=>'Inside Design',
+    'interior'=>'Interior Design',
     'const'=>'Building',
     'remo'=>'Remodeling',
     'inmo'=>'Real-Estate',
