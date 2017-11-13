@@ -9,7 +9,6 @@
                    <br>
                    <div class="textoCentrado">
                        <h2 class="white-text textoH2Servicio textoServicio">{{trans('design.anima')}}</h2>
-                       <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">{{trans('general.info')}}</a>
                    </div>
                 </div>
             </div>
@@ -25,7 +24,6 @@
                      <br>
                      <div class="textoCentrado">
                          <h2 class="white-text textoH2Servicio textoServicio">SPACE CLOTHING</h2>
-                         <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">{{trans('general.info')}}</a>
                      </div>
                  </div>
             </div>
@@ -40,7 +38,6 @@
                    <br>
                    <div class="textoCentrado">
                        <h2 class="white-text textoH2Servicio textoServicio">{{trans('design.pubDes')}}</h2>
-                       <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">{{trans('general.info')}}</a>
                    </div>
                </div>
           </div>
@@ -55,8 +52,7 @@
                  <div class="mascara-2">
                      <br>
                      <div class="textoCentrado">
-                         <h2 class="white-text textoH2Servicio textoServicio">PHOTO SPACE</h2>
-                         <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">{{trans('general.info')}}</a>
+                         <h2 class="white-text textoH2Servicio textoServicio">COLOR SPACE PLAY</h2>
                      </div>
                  </div>
             </div>

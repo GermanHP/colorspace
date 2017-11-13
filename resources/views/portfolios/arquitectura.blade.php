@@ -20,10 +20,10 @@
     </div>
     <div class="row" id="servicios">
         <div class="col-lg-12">
-            <div class="contenedor-img-1 slide-1">
+            <div class="contenedor-img-2 slide-1-1">
                 <a href="#" data-toggle="modal" data-target="#modalContacto">
                    <img src="img/arquitectura/luminaria.jpg" alt="" class="img-responsive-opacity" id="luminaria">
-                   <div class="mascara">
+                   <div class="mascara-2">
                        <br>
                        <div class="textoCentrado">
                            <h2 class="white-text textoH2Servicio textoServicio"><strong>{{trans('arqui.ilumi')}}</strong></h2>
@@ -37,10 +37,10 @@
     <div class="row">
         <div class="col-lg-12">
 
-            <div class="contenedor-img-2 slide-1-1">
+            <div class="contenedor-img-1 slide-1">
                 <a href="#" data-toggle="modal" data-target="#modalContacto">
                      <img src="img/arquitectura/paletas.jpg" alt="" class="img-responsive-opacity" id="paletas">
-                     <div class="mascara-2">
+                     <div class="mascara">
                          <br>
                          <div class="textoCentrado">
                              <h2 class="white-text textoH2Servicio textoServicio"><strong>{{trans('arqui.spaceCo')}}</strong></h2>

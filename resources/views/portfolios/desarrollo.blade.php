@@ -10,7 +10,6 @@
                    <br>
                    <div class="textoCentrado">
                        <h2 class="white-text textoH2Servicio textoServicio">{{trans('webdesign.desa')}} (WORDPRESS)</h2>
-                       <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">{{trans('general.info')}}</a>
                    </div>
                 </div>
             </div>
@@ -25,7 +24,6 @@
                      <br>
                      <div class="textoCentrado">
                          <h2 class="white-text textoH2Servicio textoServicio">{{trans('webdesign.desaMed')}}</h2>
-                         <a href="#" class="informacion-servicio textoServicio" data-toggle="modal" data-target="#modalContacto">{{trans('general.info')}}</a>
                      </div>
                  </div>
             </div>
