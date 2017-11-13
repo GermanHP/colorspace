@@ -1,9 +1,9 @@
 <?php
 return[
-    'write'=>'Escríbenos',
-    'name'=>'Tu Nombre',
-    'mail'=>'Tu Email',
-    'text'=>'Nos encantaría leerte',
-    'close'=>'Cerrar',
-    'enviar'=>'Enviar',
+    'write'=>'ESCRÍBENOS',
+    'name'=>'TU NOMBRE',
+    'mail'=>'TU EMAIL',
+    'text'=>'NOS ENCANTARÍA LEERTE',
+    'close'=>'CERRAR',
+    'enviar'=>'ENVIAR',
 ];
