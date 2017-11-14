@@ -1,6 +1,10 @@
 *{
     margin: 0;
 }
+
+body{
+    min-width: 340px;
+}
 div#sobre-nosotros{
     background-image: url("../img/team/wallteam.jpg");
     background-size: cover;
@@ -8,7 +12,7 @@ div#sobre-nosotros{
 }
 
 .img-equipo{
-    width: 570px;
+    width: 500px;
     height: auto;
 }
 
@@ -24,7 +28,7 @@ div#sobre-nosotros{
 
 .bg-equipo{
     background-color: #193441;
-    width: 300px;
+    width: 200px;
     border-top-left-radius: 15px 5px;
     border-top-right-radius: 15px 5px;
     border-bottom-right-radius: 15px 5px;

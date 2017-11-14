@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="google-site-verification" content="aScgXuIENeIk0WL0rIM53VZjQb2nNXUrxG9ZlDDK81g" />
     <meta name="keywords" content="Arquitectura El Salvador, Desarrollo web El Salvador, Diseño gráfico El Salvador, #BeColorSpace">
     <meta name="description" content="Equipo, #BeColorSpace, Team">
@@ -123,7 +123,7 @@
         </li>
     @endif-->
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{trans('general.lang')}}</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="text-uppercase">{{trans('general.lang')}}</span></a>
 
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="{{url('lang', ['en'])}}">English</a></li>
@@ -134,7 +134,9 @@
     </div>
 </nav>
 <main class="mdl-layout__content">
-    @yield('content')
+    <div class="page-content">
+        @yield('content')
+    </div>
 </main>
 
 @include('includes.footer')

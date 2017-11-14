@@ -90,7 +90,11 @@ body{
         font-size: 200%;
     }
 }
-
+@media (max-width: 1023px) {
+#hideThis{
+    display: none;
+}
+}
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     h2#arquitectura{
