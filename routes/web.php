@@ -49,7 +49,7 @@ Route::group(['middleware' =>['web']], function (){
     Route::get('/wordpress-development', 'DevPortfolioController@devWordpress');
 
     /*Ruta para el blog temporal*/
-    Route::get('/blog','BlogTempController@blogTemp');
+    Route::get('/blog','BlogController@index');
 });
 
 
@@ -57,6 +57,9 @@ Route::group(['middleware' =>['web']], function (){
 Route::group(['middleware' => ['auth']], function () {
 Route::get('/admin-panel', 'AdminController@inicio');
 
+/*Rutas para los posts*/
+Route::get('/nuevo-post', 'BlogController@nuevoPost');
+Route::post('/PostInsert', 'BlogController@Insertar')->name('Posts.Insert');
 
 
 

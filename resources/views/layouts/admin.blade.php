@@ -127,6 +127,8 @@
             <a class="mdl-navigation__link" href="#"><i class="material-icons">supervisor_account</i>Contactos</a>
             <a class="mdl-navigation__link" href="#"><i class="material-icons">shopping_basket</i>Promociones</a>
             <a class="mdl-navigation__link" href="#"><i class="material-icons">add_shopping_cart</i>Nueva Promoción</a>
+            <a class="mdl-navigation__link" href={{url('/nuevo-post')}}><i class="material-icons">add</i>Nuevo Post</a>
+            <a class="mdl-navigation__link" href="#"><i class="material-icons">create</i>Editar Post</a>
         </nav>
     </div>
     <main class="mdl-layout__content">
