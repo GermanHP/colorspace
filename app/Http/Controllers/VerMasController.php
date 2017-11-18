@@ -5,8 +5,6 @@ class VerMasController extends Controller
 {
     public function masArqui(){
         return view('portfolios.verMas.arquiMas');
-
-
     }
 
 

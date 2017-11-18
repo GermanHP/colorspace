@@ -42,8 +42,11 @@ Route::group(['middleware' =>['web']], function (){
     /*Rutas para perfiles*/
     Route::get('/team', 'ProfileController@index');
 
-    /*Ruta para portafolios*/
+    /*Ruta para portafolios Arquitectura*/
     Route::get('/porta-architecture', 'VerMasController@masArqui');
+
+    /*Rutas para Portafolios Desarrollo Web */
+    Route::get('/wordpress-development', 'DevPortfolioController@devWordpress');
 
     /*Ruta para el blog temporal*/
     Route::get('/blog','BlogTempController@blogTemp');
