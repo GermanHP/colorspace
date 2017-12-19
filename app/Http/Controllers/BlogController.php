@@ -4,38 +4,25 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\PostRequest;
 use Illuminate\Http\Request;
-use App\Models\BlogPost;
-use App\Models\Categorias;
+use App\Post;
+use Illuminate\Support\Facades\Input;
+use Intervention\Image\Facades\Image;
+use Illuminate\Support\Facades\DB;
 
 class BlogController extends Controller
 {
 
-    public function index(){
-        $entradas = BlogPost::all();
+    public function getIndex() {
+        $posts = Post::paginate(10);
 
-        return View('blog.blogTemp', compact('entradas'));
+        return view('blog.blogTemp')->withPosts($posts);
     }
 
-    public function nuevoPost(){
+    public function getSingle($slug) {
+        // fetch from the DB based on slug
+        $post = Post::where('slug', '=', $slug)->first();
 
-        $tipoCategoria = Categorias::all('nombre', 'id');
-
-        return View('blog.formularios.entradasBlog', compact('tipoCategoria'));
+        // return the view and pass in the post object
+        return view('blog.single')->withPost($post);
     }
-
-    public function Insertar(Request $request){
-        $postBlog = new BlogPost();
-
-        $postBlog->fill([
-           "titulo"=>$request["tituloPost"],
-           "texto"=>$request["cuerpoPost"],
-            "idCategoria"=>$request["categoria"]
-        ]);
-        $postBlog->save();
-
-        flash('Post Creado Exitosamente', 'succes');
-        return redirect()->back();
-    }
-
-
 }

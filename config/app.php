@@ -162,6 +162,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Mews\Purifier\PurifierServiceProvider::class,
 
 
         /*
@@ -184,7 +185,8 @@ return [
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Laracasts\Flash\FlashServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
-        'Tymon\JWTAuth\Providers\JWTAuthServiceProvider'
+        'Tymon\JWTAuth\Providers\JWTAuthServiceProvider',
+        'Intervention\Image\ImageServiceProvider'
 
     ],
 
@@ -240,6 +242,8 @@ return [
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
         'JWTAuth' => 'Tymon\JWTAuth\Facades\JWTAuth',
         'JWTFactory' => 'Tymon\JWTAuth\Facades\JWTFactory',
+        'Purifier'  => Mews\Purifier\Facades\Purifier::class,
+        'Image' => 'Intervention\Image\Facades\Image',
 
     ],
 
