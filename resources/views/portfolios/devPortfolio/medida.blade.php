@@ -1,35 +1,24 @@
 @extends('layouts.app')
 @section('content')
-
-    <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" >
-           <img class="imagen-porta-arqui" src="img/porta/arqui/01adidasMetro.jpg" alt="">
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <img class="imagen-porta-arqui" src="img/porta/arqui/02adidasMulti.jpg" alt="">
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <img class="imagen-porta-arqui" src="img/porta/arqui/03adidasPerMulti.jpg" alt="">
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <img class="imagen-porta-arqui" src="img/porta/arqui/04flexiSanMi.jpg" alt="">
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <img class="imagen-porta-arqui" src="img/porta/arqui/05reboMulti.jpg" alt="">
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <img class="imagen-porta-arqui" src="img/porta/arqui/06carcamo.jpg" alt="">
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <img class="imagen-porta-arqui" src="img/porta/arqui/07atacoResi.jpg" alt="">
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <img class="imagen-porta-arqui" src="img/porta/arqui/08cenHallCali.jpg" alt="">
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <img class="imagen-porta-arqui" src="img/porta/arqui/09lucesResi.jpg" alt="">
+    <div class="">
+        <!-- Flickity HTML init -->
+        <div class="carousel2"
+             data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": true, "pageDots": false, "imagesLoaded": true }'>
+            <div class="carousel-cell" style="background: white;">
+                <h1>Gabriel Eres un Crack</h1>
+                <p>Apoco no?</p>
+            </div>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" alt="orange tree" />
+            <div class="carousel-cell" style="background: red;">
+                <h1>Gabriel Eres un Crack X2</h1>
+                <p>Apoco no Carnal?x2</p>
+            </div>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" alt="look-out" />
+            <div class="carousel-cell" style="background: orange;">
+                <h1>Gabriel Eres un Crack X3</h1>
+                <p>Apoco no Carnal?x3</p>
+            </div>
         </div>
     </div>
-
 
 @stop

@@ -342,3 +342,31 @@ h2 span{
     letter-spacing: -1px;
     padding: 10px;
 }
+
+/* external css: flickity.css */
+
+
+
+.carousel2 {
+    background: white;
+}
+
+.carousel-cell {
+    width: 66%;
+    height: 600px;
+    background: #8C8;
+}
+.carousel2 img {
+    display: block;
+    height: 600px;
+}
+
+/* cell number */
+.carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 600px;
+    font-size: 80px;
+    color: white;
+}
+
