@@ -15,7 +15,7 @@ class DevPortfolioController
         return view('portfolios.devPortfolio.wordpress');
     }
 
-    public function devMedida(){
+    public function deMedida(){
         return view('portfolios.devPortfolio.medida');
     }
 }
