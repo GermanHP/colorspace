@@ -5,6 +5,7 @@ html, body{
 }
 body{
     min-width: 340px;
+    width: 100%;
 }
 /* Small devices (landscape phones, 100px and up) */
 @media (min-width: 320px) {
