@@ -91,7 +91,7 @@
                 <a class="nav-link" href="{{url('/team')}}">{{trans('front.about')}}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{url('/blog')}}">Blog</a>
+                <a class="nav-link" href="{{url('/blog')}}">BLOG</a>
             </li>
 
 
@@ -127,8 +127,8 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{trans('general.lang')}}</a>
 
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="{{url('lang', ['en'])}}">English</a></li>
-                                <li><a href="{{url('lang', ['es'])}}">Español</a></li>
+                                <li><a href="{{url('lang', ['en'])}}">ENGLISH</a></li>
+                                <li><a href="{{url('lang', ['es'])}}">ESPAÑOL</a></li>
                             </ul>
                         </li>
         </ul>

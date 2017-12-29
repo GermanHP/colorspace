@@ -47,6 +47,10 @@ Route::group(['middleware' =>['web']], function (){
 
     /*Rutas para Portafolios Desarrollo Web */
     Route::get('/wordpress-development', 'DevPortfolioController@devWordpress');
+    Route::get('/custom-development', 'DevPortfolioController@devMedida');
+
+    /*Rutas para Portafolios Diseño Grafico*/
+    Route::get('/advertising-design', 'DesingPortfolioController@desingAdvertising');
 
     /*Ruta para el blog temporal*/
     Route::get('/blog','BlogController@index');
