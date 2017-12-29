@@ -4,5 +4,5 @@ return[
     'inEx'=>'INTERIOR/EXTERIOR',
     'porta'=>'PORTAFOLIO',
     'ver'=>'Ver más',
-    'lang'=>'Languaje',
+    'lang'=>'LANGUAJE',
 ];

@@ -4,5 +4,5 @@ return[
     'inEx'=>'INDOOR/OUTDOOR',
     'porta'=>'PORTFOLIO',
     'ver'=>'See more',
-    'lang'=>'Idioma',
+    'lang'=>'IDIOMA',
 ];
