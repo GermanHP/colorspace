@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.sliders')
 @section('content')
     <div class="row">
         <br>
@@ -7,18 +7,19 @@
             <div class="carousel2"
                  data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": true, "pageDots": false, "imagesLoaded": true }'>
                 <div class="carousel-cell" style="background: white;">
-                    <h1>Gabriel Eres un Crack</h1>
-                    <p>Apoco no?</p>
+                    <div class="texto-slider">
+                        <h1>Ejemplo de visita al portafolio</h1>
+                        <p>Esto solo es un parrafo donde irá una pequeña descripción del proyecto
+                        presentado en este slider</p>
+                    </div>
                 </div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" alt="orange tree" />
+                <img src="img/porta/desing/awrik 1.jpg" alt="orange tree" />
                 <div class="carousel-cell" style="background: red;">
-                    <h1>Gabriel Eres un Crack X2</h1>
-                    <p>Apoco no Carnal?x2</p>
+
                 </div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" alt="look-out" />
+                <img src="img/porta/desing/awrik 2.jpg" alt="look-out" />
                 <div class="carousel-cell" style="background: orange;">
-                    <h1>Gabriel Eres un Crack X3</h1>
-                    <p>Apoco no Carnal?x3</p>
+
                 </div>
             </div>
         </div>
