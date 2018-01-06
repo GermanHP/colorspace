@@ -104,7 +104,7 @@
                 <a class="nav-link" href="{{url('/blog')}}">Blog</a>
             </li>
 
-
+<!--
                 @if (Auth::guest())
                     <li id="loguear"><a href="#" data-toggle="modal" data-target="#modalLogin">{{trans('auth.inicio')}}</a></li>
 
@@ -131,7 +131,7 @@
                             </li>
                         </ul>
                     </li>
-                @endif
+                @endif-->
 
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{trans('general.lang')}}</a>

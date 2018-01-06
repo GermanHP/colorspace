@@ -42,12 +42,6 @@
                     <h3 class="white-text bg-equipo text-center"><strong>CEO</strong></h3>
                 </div>
                 <div class="col-xs-6">
-                    <h3 class="white-text pull-right">Josseline Mejía</h3>
-                </div>
-                <div class="col-xs-6">
-                    <h3 class="white-text  bg-equipo text-center"><strong>Project Developer</strong></h3>
-                </div>
-                <div class="col-xs-6">
                     <h3 class="white-text pull-right">Gustavo Chámul</h3>
                 </div>
                 <div class="col-xs-6">
