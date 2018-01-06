@@ -26,7 +26,6 @@
     {!! Html::script('https://code.jquery.com/jquery-3.2.1.slim.min.js') !!}
     {!! Html::script('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js') !!}
     {!! Html::script('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js') !!}
-    {!! Html::style('https://unpkg.com/flickity@2/dist/flickity.min.css') !!}
 
     {!! Html::style('css/animate.css') !!}
     {!! Html::style('css/images.css') !!}

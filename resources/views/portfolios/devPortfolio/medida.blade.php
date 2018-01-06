@@ -7,17 +7,17 @@
             <div class="carousel2"
                  data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": true, "pageDots": false, "imagesLoaded": true }'>
                 <div class="carousel-cell" style="background: white;">
-                    <div class="texto-slider">
-                        <h1>Ejemplo de visita al portafolio</h1>
-                        <p>Esto solo es un parrafo donde irá una pequeña descripción del proyecto
-                        presentado en este slider</p>
+                    <div class="texto-slider centrado-slider">
+                        <h2 class="text-center">Ejemplo de visita al portafolio</h2>
+                        <h3 class="text-justify">Esto solo es un parrafo donde irá una pequeña descripción del proyecto
+                        presentado en este slider</h3>
                     </div>
                 </div>
-                <img src="img/porta/desing/awrik 1.jpg" alt="orange tree" />
+                <img src="img/porta/arqui/AdidasMetro/1.jpg" alt="orange tree" />
                 <div class="carousel-cell" style="background: red;">
 
                 </div>
-                <img src="img/porta/desing/awrik 2.jpg" alt="look-out" />
+                <img src="img/porta/arqui/AdidasMetro/2.jpg" alt="look-out" />
                 <div class="carousel-cell" style="background: orange;">
 
                 </div>
