@@ -11,6 +11,9 @@ body{
     div-imagen{
         height: 515px;
     }
+    mobil-only{
+        display: block;
+    }
     .div-imagen > div {
         width: 100%;
         top:35%;
@@ -53,6 +56,9 @@ body{
     div-imagen{
         height: 540px;
     }
+    mobil-only{
+        display: block;
+    }
     h2#arquitectura{
         top: 150px;
     }
@@ -87,6 +93,9 @@ body{
 @media (min-width: 600px) {
     h2#arquitectura{
         top: 20%;
+    }
+    mobil-only{
+        display: block;
     }
     h2#diseniografico{
         top: 20%;
@@ -127,6 +136,9 @@ body{
 #hideThis{
     display: none;
 }
+    mobil-only{
+        display: none;
+    }
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -168,6 +180,9 @@ body{
     }
     .carousel2 {
         height: 600px;
+    }
+    mobil-only{
+        display: none;
     }
 }
 
@@ -213,6 +228,9 @@ body{
     }
     .carousel2 {
         height: 700px;
+    }
+    mobil-only{
+        display: none;
     }
 }
 nav{

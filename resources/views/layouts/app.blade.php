@@ -17,13 +17,13 @@
     <title>{{ config('app.name', 'Laravel') }} - Arquitectura x Desarrollo Web x Diseño Gráfico</title>
 
     <!-- Styles -->
+    {!! Html::script('https://code.jquery.com/jquery-3.2.1.slim.min.js') !!}
     {!! Html::style('https://fonts.googleapis.com/icon?family=Material+Icons') !!}
     {!! Html::style('https://code.getmdl.io/1.3.0/material.grey-indigo.min.css') !!}
     {!! Html::script('https://code.getmdl.io/1.3.0/material.min.js') !!}
     {!! Html::style('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css') !!}
 
     {!! Html::style('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css') !!}
-    {!! Html::script('https://code.jquery.com/jquery-3.2.1.slim.min.js') !!}
     {!! Html::script('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js') !!}
     {!! Html::script('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js') !!}
 
