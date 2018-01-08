@@ -43,7 +43,13 @@ Route::group(['middleware' =>['web']], function (){
     Route::get('/team', 'ProfileController@index');
 
     /*Ruta para portafolios Arquitectura*/
-    Route::get('/porta-architecture', 'VerMasController@masArqui');
+    Route::get('/architectural', 'arquiPortfolioController@arquiArchitectural');
+    Route::get('/adidas-metrocentro', 'arquiPortfolioController@adidasMetro');
+    Route::get('/adidas-multiplaza', 'arquiPortfolioController@adidasMulti');
+    Route::get('/adidas-performance-multiplaza', 'arquiPortfolioController@adidasPerMulti');
+    Route::get('/flexi-sanmiguel', 'arquiPortfolioController@flexiSanMiguel');
+    Route::get('/reebok-multiplaza', 'arquiPortfolioController@reebokMulti');
+    Route::get('/carcamo-naranjos', 'arquiPortfolioController@carcamoNaranjos');
 
     /*Rutas para Portafolios Desarrollo Web */
     Route::get('/wordpress-development', 'DevPortfolioController@devWordpress');

@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="contenedor-img-1 slide-1">
-                <a href="#" data-toggle="modal" data-target="#modalContacto">
+                <a href="{{url('/architectural')}}">
                     <img src="img/arquitectura/maqueta.jpg" alt="" class="img-responsive-opacity" id="maqueta">
                     <div class="mascara">
                         <br>

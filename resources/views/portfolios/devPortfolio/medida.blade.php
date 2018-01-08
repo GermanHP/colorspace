@@ -24,16 +24,16 @@
 
     </div>
 
-    <script language="JavaScript">
+    <script>
 
         // Flickity options, defaults
         var options = {
-            prevNextButtons: false
+            prevNextButtons: true
         };
 
         // enable prev/next buttons at 768px
         if ( matchMedia('screen and (min-width: 768px)').matches ) {
-            options.prevNextButtons = true;
+            options.prevNextButtons = false;
         }
 
         // disable draggable at 1200px
