@@ -45,7 +45,7 @@ Route::group(['middleware' =>['web']], function (){
     /*Ruta para portafolios*/
     Route::get('/porta-architecture', 'VerMasController@masArqui');
 
-    /*Ruta para el blog temporal*/
+    /*Ruta para el blog definitivo*/
     Route::get('/blog',['uses' => 'BlogController@getIndex', 'as' => 'blog.index']);
     Route::get('blog/{slug}', ['as' => 'blog.single', 'uses' => 'BlogController@getSingle'])->where('slug', '[\w\d\-\_]+');
 
