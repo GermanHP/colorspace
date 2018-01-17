@@ -57,6 +57,12 @@ Route::group(['middleware' =>['web']], function (){
 
     /*Rutas para Portafolios Diseño Grafico*/
     Route::get('/advertising-design', 'DesingPortfolioController@desingAdvertising');
+    Route::get('/banners', 'DesingPortfolioController@banners');
+    Route::get('/clothing', 'DesingPortfolioController@clothing');
+    Route::get('/flyers', 'DesingPortfolioController@flyers');
+    Route::get('/ilustraciones', 'DesingPortfolioController@ilustraciones');
+    Route::get('/logos', 'DesingPortfolioController@logo');
+    Route::get('/papeleria', 'DesingPortfolioController@papeleria');
 
     /*Ruta para el blog temporal*/
     Route::get('/blog','BlogController@index');
