@@ -2,7 +2,7 @@
 <footer class="mdl-mini-footer">
     <div class="mdl-mini-footer__left-section" id="seccionFooter">
         <a class="navbar-brand" href="#">
-            <img id="logoColorSpace2" src="img/logospace.png" alt="">
+            <img id="logoColorSpace2" src="{{url('img/logospace.png')}}" alt="">
         </a>
         <div class="mdl-logo">
            Color Space &copy; 2017 <br>

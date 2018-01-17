@@ -1,42 +1,60 @@
 @extends('layouts.admin')
 @section('contenido')
 
-    <div class="container panel-body">
+    {!! Html::style('css/parsley.css') !!}
+    {!! Html::style('css/select2.min.css') !!}
+    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+
+
+    <div class="container panel">
         <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="panel panel-default">
-                    <div class="panel-heading"><h3 class="text-center">Nuevo Post</h3></div>
+            <div class="col-md-8 col-md-offset-2">
+                <h1>Crear Nuevo Post</h1>
+                <hr>
+                {!! Form::open(['route' => ['posts.store'], 'method'=>'POST', 'data-parsley-validate' => '', 'files' => true]) !!}
+                {{ Form::label('title', 'Título:') }}
+                {{ Form::text('title', null, ['class' => 'form-control', 'required' => '', 'maxlength' => '255']) }}
 
-                    {!!Form::open(['route'=>['Posts.Insert'], 'method'=>'POST', 'onsubmit'=>"waitingDialog.show('Creando Post... ',{ progressType: 'info'});setTimeout(function () {waitingDialog.hide();}, 3000);"])!!}
-                    <div class="panel-body">
-                        <div class="row">
+                {{ Form::label('slug', 'URL:') }}
+                {{ Form::text('slug', null, array('class' => 'form-control', 'required' => '', 'minlength' => '5', 'maxlength' => '255') ) }}
 
-                                <div class="col-md-6 mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                    {{Form::label('Título del Post'),null,['class'=>'mdl-textfield__label']}}
-                                    {{Form::text('tituloPost',null,['class'=>'mdl-textfield__input', 'placeholder'=>'Título del post'])}}
-                                </div>
+                {{ Form::label('category_id', 'Categoría:') }}
 
-                                <div class="col-md-6 mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                    {{Form::label('Categoria'),null,['class'=>'input-group-addon']}}
-                                    {!! Form::select('categoria',$tipoCategoria,
-                                    ['class'=>'js-example-basic-single form-control ',"describedby"=>"basic-addon1",
-                                    'required', 'id'=>'categoria', 'onchange'=>'GetMunicipios(this)',
-                                    'style'=>'width: 100%']) !!}
-                                </div>
+                <select class="form-control" name="category_id">
+                    @foreach($categories as $category)
+                        <option value='{{ $category->id }}'>{{ $category->name }}</option>
+                    @endforeach
 
-                        </div>
+                </select>
 
-                        <form>
-                            {{Form::textarea('cuerpoPost',null,['class'=>'ckeditor', 'placeholder'=>'Cuerpo del Post'])}}
-                        </form>
-                        <br>
-                        {!!Form::submit('Publicar', ['class'=>'mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect','name'=>'btnPublicarNovedad'])!!}
-                        <br>
-                    </div>
-                    {{Form::close()}}
 
+                {{ Form::label('tags', 'Tags:') }}
+                <select class="form-control select2-multi" name="tags[]" multiple="multiple">
+                    @foreach($tags as $tag)
+                        <option value='{{ $tag->id }}'>{{ $tag->name }}</option>
+                    @endforeach
+
+                </select>
+
+                {{ Form::label('featured_img', 'Adjuntar Recurso') }}
+                {{ Form::file('featured_img') }}
+
+                <div class="input-group form-group">
+                    {{Form::label('Cuerpo del post'),null,['class'=>'input-group-addon']}}
+                    {{Form::textarea('body',null,['class'=>'form-control ckeditor', 'placeholder'=>'Cuerpo del Post'])}}
                 </div>
+
+                {{ Form::submit('Create Post', array('class' => 'btn btn-success btn-lg btn-block', 'style' => 'margin-top: 20px;')) }}
+                {!! Form::close() !!}
             </div>
         </div>
     </div>
+
+    {!! Html::script('js/parsley.min.js') !!}
+    {!! Html::script('js/select2.min.js') !!}
+
+    <script type="text/javascript">
+        $('.select2-multi').select2();
+    </script>
+
 @stop

@@ -68,9 +68,19 @@
 
 </head>
 <body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.11&appId=1948068252110734';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
 <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="{{url('/')}}">
-        <img id="logoColorSpace" src="img/colorspacelogo.png" alt=""></a>
+        <img id="logoColorSpace" src="{{url('img/colorspacelogo.png')}}" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -93,7 +103,7 @@
                 <a class="nav-link" href="{{url('/blog')}}">BLOG</a>
             </li>
 
-
+<!--
                 @if (Auth::guest())
                     <li id="loguear"><a href="#" data-toggle="modal" data-target="#modalLogin">{{trans('auth.inicio')}}</a></li>
 
@@ -120,7 +130,7 @@
                             </li>
                         </ul>
                     </li>
-                @endif
+                @endif-->
 
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{trans('general.lang')}}</a>
@@ -137,7 +147,6 @@
 <main class="mdl-layout__content">
     <div class="page-content">
         @yield('content')
-
     </div>
 </main>
 

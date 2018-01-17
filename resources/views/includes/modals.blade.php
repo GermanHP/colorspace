@@ -43,7 +43,7 @@
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 <h4 class="modal-title text-center">Iniciar Sesión</h4>
             </div>
-            <img class="center-block" src="img/logospace.png" width="100" height="100">
+            <img class="center-block" src="{{url('img/logospace.png')}}" width="100" height="100">
             <div class="modal-body">
                 <form class="form-horizontal" role="form" method="POST" action="{{ route('login') }}">
                     {{ csrf_field() }}
