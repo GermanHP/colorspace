@@ -17,16 +17,15 @@
     <title>{{ config('app.name', 'Laravel') }} - Arquitectura x Desarrollo Web x Diseño Gráfico</title>
 
     <!-- Styles -->
+    {!! Html::script('https://code.jquery.com/jquery-3.2.1.slim.min.js') !!}
     {!! Html::style('https://fonts.googleapis.com/icon?family=Material+Icons') !!}
     {!! Html::style('https://code.getmdl.io/1.3.0/material.grey-indigo.min.css') !!}
     {!! Html::script('https://code.getmdl.io/1.3.0/material.min.js') !!}
     {!! Html::style('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css') !!}
 
     {!! Html::style('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css') !!}
-    {!! Html::script('https://code.jquery.com/jquery-3.2.1.slim.min.js') !!}
     {!! Html::script('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js') !!}
     {!! Html::script('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js') !!}
-
 
     {!! Html::style('css/animate.css') !!}
     {!! Html::style('css/images.css') !!}
@@ -35,7 +34,7 @@
     {!! Html::style('css/style.css') !!}
     {!! Html::style('css/portaStyle.css') !!}
 
-
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <!-- Scripts -->
     <script>
         window.Laravel = {!! json_encode([
@@ -101,7 +100,7 @@
                 <a class="nav-link" href="{{url('/team')}}">{{trans('front.about')}}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{url('/blog')}}">Blog</a>
+                <a class="nav-link" href="{{url('/blog')}}">BLOG</a>
             </li>
 
 <!--
@@ -137,8 +136,8 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{trans('general.lang')}}</a>
 
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="{{url('lang', ['en'])}}">English</a></li>
-                                <li><a href="{{url('lang', ['es'])}}">Español</a></li>
+                                <li><a href="{{url('lang', ['en'])}}">ENGLISH</a></li>
+                                <li><a href="{{url('lang', ['es'])}}">ESPAÑOL</a></li>
                             </ul>
                         </li>
         </ul>

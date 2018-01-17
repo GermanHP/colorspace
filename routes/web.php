@@ -42,10 +42,29 @@ Route::group(['middleware' =>['web']], function (){
     /*Rutas para perfiles*/
     Route::get('/team', 'ProfileController@index');
 
-    /*Ruta para portafolios*/
-    Route::get('/porta-architecture', 'VerMasController@masArqui');
+    /*Ruta para portafolios Arquitectura*/
+    Route::get('/architectural', 'arquiPortfolioController@arquiArchitectural');
+    Route::get('/adidas-metrocentro', 'arquiPortfolioController@adidasMetro');
+    Route::get('/adidas-multiplaza', 'arquiPortfolioController@adidasMulti');
+    Route::get('/adidas-performance-multiplaza', 'arquiPortfolioController@adidasPerMulti');
+    Route::get('/flexi-sanmiguel', 'arquiPortfolioController@flexiSanMiguel');
+    Route::get('/reebok-multiplaza', 'arquiPortfolioController@reebokMulti');
+    Route::get('/carcamo-naranjos', 'arquiPortfolioController@carcamoNaranjos');
 
-    /*Ruta para el blog definitivo*/
+    /*Rutas para Portafolios Desarrollo Web*/
+    Route::get('/wordpress-development', 'DevPortfolioController@devWordpress');
+    Route::get('/custom-development', 'DevPortfolioController@devMedida');
+
+    /*Rutas para Portafolios Diseño Grafico*/
+    Route::get('/advertising-design', 'DesingPortfolioController@desingAdvertising');
+    Route::get('/banners', 'DesingPortfolioController@banners');
+    Route::get('/clothing', 'DesingPortfolioController@clothing');
+    Route::get('/flyers', 'DesingPortfolioController@flyers');
+    Route::get('/ilustraciones', 'DesingPortfolioController@ilustraciones');
+    Route::get('/logos', 'DesingPortfolioController@logo');
+    Route::get('/papeleria', 'DesingPortfolioController@papeleria');
+
+    /*Ruta para el blog temporal*/
     Route::get('/blog',['uses' => 'BlogController@getIndex', 'as' => 'blog.index']);
     Route::get('blog/{slug}', ['as' => 'blog.single', 'uses' => 'BlogController@getSingle'])->where('slug', '[\w\d\-\_]+');
 
