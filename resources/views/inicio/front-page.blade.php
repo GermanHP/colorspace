@@ -34,8 +34,8 @@
             <h2 id="desarrolloweb" class="text-center"><span>{{trans('front.desWeb')}}</span></h2><br>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-3 div-imagen">
-            <a href="#"><img class="desvanecer inicio" src="img/front/A4.jpg" alt=""></a>
-            <h2 id="promociones" class="text-center"><span>{{trans('front.prox')}}</span></h2><br>
+            <a href="{{url('/blog')}}"><img class="desvanecer inicio" src="img/front/A4.jpg" alt=""></a>
+            <h2 id="promociones" class="text-center"><span>BLOG</span></h2><br>
         </div>
     </div>
 @stop

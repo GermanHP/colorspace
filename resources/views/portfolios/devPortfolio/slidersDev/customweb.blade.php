@@ -7,7 +7,7 @@
                 <div class="carousel-cell" style="background: white;">
                     <div class="texto-slider centrado-slider">
                         <h2 class="text-center text-uppercase">Porfolio Web/Android Development</h2>
-                        <h4 class="text-center show-on-small">Desliza para más información</h4>
+                        <h4 class="text-center visible-xs-block hidden-xs">Desliza para más información</h4>
                     </div>
                 </div>
                 <img src="img/porta/dev/customwebs/1.jpg" alt="web" />

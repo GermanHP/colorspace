@@ -18,4 +18,8 @@ class DevPortfolioController
     public function devMedida(){
         return view('portfolios.devPortfolio.medida');
     }
+
+    public function customWebs(){
+        return view('portfolios.devPortfolio.slidersDev.customweb');
+    }
 }

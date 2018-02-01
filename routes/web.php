@@ -51,9 +51,10 @@ Route::group(['middleware' =>['web']], function (){
     Route::get('/reebok-multiplaza', 'arquiPortfolioController@reebokMulti');
     Route::get('/carcamo-naranjos', 'arquiPortfolioController@carcamoNaranjos');
 
-    /*Rutas para Portafolios Desarrollo Web*/
+    /*Rutas para Portafolios Desarrollo Web
     Route::get('/wordpress-development', 'DevPortfolioController@devWordpress');
-    Route::get('/custom-development', 'DevPortfolioController@devMedida');
+    Route::get('/custom-development', 'DevPortfolioController@devMedida');*/
+    Route::get('/portfolio-development', 'DevPortfolioController@customWebs');
 
     /*Rutas para Portafolios Diseño Grafico*/
     Route::get('/advertising-design', 'DesingPortfolioController@desingAdvertising');
