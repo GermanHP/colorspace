@@ -82,9 +82,6 @@
                 <a class="nav-link" href="{{url('/')}}">{{trans('front.start')}}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">{{trans('front.prom')}}</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="#" data-toggle="modal" data-target="#modalContacto">{{trans('front.write')}}</a>
             </li>
             <li class="nav-item">
