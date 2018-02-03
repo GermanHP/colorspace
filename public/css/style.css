@@ -48,7 +48,7 @@ body{
         height: auto;
     }
     .carousel2 {
-        height: 480px;
+        height: 400px;
     }
 }
 /* Small devices (landscape phones, 544px and up) */
@@ -85,7 +85,7 @@ body{
         height: 100%;
     }
     .carousel2 {
-        height: 490px;
+        height: 450px;
     }
 }
 
@@ -129,7 +129,7 @@ body{
         height: 100%;
     }
     .carousel2 {
-        height: 600px;
+        height: 500px;
     }
 }
 @media (max-width: 1023px) {
@@ -179,7 +179,7 @@ body{
         width: auto;
     }
     .carousel2 {
-        height: 600px;
+        height: 490px;
     }
     mobil-only{
         display: none;
@@ -188,6 +188,53 @@ body{
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+    h2#arquitectura{
+        top: 150px;
+    }
+
+    h2#diseniografico{
+        top: 150px;
+
+    }
+
+    h2#desarrolloweb{
+        top: 150px;
+
+    }
+    h2#promociones{
+        top: 150px;
+    }
+    .div-imagen > div {
+
+        top:35%;
+        left:0;
+        width: 100%;
+        padding:10px;
+    }
+    .div-imagen > div h4 {
+        font-size: 150%;
+    }
+    h2 span{
+        font-size: 100%;
+    }
+    .carousel-cell {
+        position: relative;
+        width: 66%;
+        height: 100%;
+    }
+    .carousel2 img {
+        height: 100%;
+        width: auto;
+    }
+    .carousel2 {
+        height: 485px;
+    }
+    mobil-only{
+        display: none;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 2000px) {
     h2#arquitectura{
         top: 150px;
     }
