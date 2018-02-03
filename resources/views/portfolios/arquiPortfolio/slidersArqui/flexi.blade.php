@@ -11,10 +11,10 @@
                         <h4 class="text-center mobil-only">Desliza para más información</h4>
                     </div>
                 </div>
-                <img src="img/porta/arqui/flexi/1.jpg" alt="flexi san miguel" />
-                <img src="img/porta/arqui/flexi/2.jpg" alt="flexi san miguel" />
-                <img src="img/porta/arqui/flexi/3.jpg" alt="flexi san miguel" />
-                <img src="img/porta/arqui/flexi/4.jpg" alt="flexi san miguel" />
+                <img src="img/porta/arqui/Flexi/1.jpg" alt="flexi san miguel" />
+                <img src="img/porta/arqui/Flexi/2.jpg" alt="flexi san miguel" />
+                <img src="img/porta/arqui/Flexi/3.jpg" alt="flexi san miguel" />
+                <img src="img/porta/arqui/Flexi/4.jpg" alt="flexi san miguel" />
             </div>
         </div>
 
