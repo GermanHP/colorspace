@@ -17,6 +17,5 @@
                 <img src="img/porta/arqui/AdidasPerMulti/4.jpg" alt="adidas multiplaza" />
             </div>
         </div>
-
     </div>
 @stop

@@ -32,4 +32,7 @@ class arquiPortfolioController
     public function carcamoNaranjos(){
         return view('portfolios.arquiPortfolio.slidersArqui.carcamo');
     }
+    public function diseñoInterior(){
+        return view('portfolios.arquiPortfolio.slidersArqui.diseñointerior');
+    }
 }

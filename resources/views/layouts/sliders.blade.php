@@ -19,7 +19,7 @@
     <!-- Styles -->
     {!! Html::style('https://fonts.googleapis.com/icon?family=Material+Icons') !!}
     {!! Html::style('https://unpkg.com/flickity@2/dist/flickity.min.css') !!}
-    {!! Html::script('https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js') !!}
+
     {!! Html::script('https://code.getmdl.io/1.3.0/material.min.js') !!}
     {!! Html::style('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css') !!}
 
@@ -142,6 +142,14 @@
 @include('includes.footer')
 
 <!-- Scripts -->
+
+<script
+        src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
 <script src="{{ asset('js/app.js') }}"></script>
+
 </body>
 </html>
