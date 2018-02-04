@@ -246,7 +246,7 @@
     <h3>Paisaje 3</h3>
     <div class="imagen">
         <a href="#img2">&#60;</a>
-        <a href="#img4"><img src="http://www.forodefotos.com/attachments/naturaleza/16230d1294773821-fotos-de-paisajes-fotos-de-paisajes-nevado.jpg"></a>
+        <a href="#img4"><img src=""></a>
         <a href="#img4">></a>
     </div>
     <a class="cerrar" href="">X</a>
@@ -256,7 +256,7 @@
     <h3>Paisaje 4</h3>
     <div class="imagen">
         <a href="#img3">&#60;</a>
-        <a href="#img1"><img src="http://altavistaonline.info/wp-content/uploads/2015/07/paisaje-oto-al-10834.jpg"></a>
+        <a href="#img1"><img src=""></a>
         <a href="#img1">></a>
     </div>
     <a class="cerrar" href="">X</a>

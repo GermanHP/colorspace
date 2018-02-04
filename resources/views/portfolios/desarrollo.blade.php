@@ -20,7 +20,7 @@
         <div class="row" id="servicios">
             <div class="col-lg-12">
                 <a href="{{url('/portfolio-development')}}">
-                    <div class="contenedor-img-1 slide-1-1">
+                    <div class="contenedor-img-2 slide-1-1">
                         <img src="img/porta/dev/wordpress.jpg" alt="" class="img-responsive-opacity" id="wordpress-page">
                         <div class="mascara-2">
                             <br>

@@ -13,4 +13,5 @@ return[
     'supConst'=>'Supervision - Building',
     'desSupCons'=>'Architectural Design x Supervision x Construction',
     'desArqui'=>'Architectural Design',
+    'desIz'=>'Swipe left',
 ];

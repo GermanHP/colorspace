@@ -2,47 +2,33 @@
 @section('content')
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="padding-text">
-                <h1 class="white-text">Adidas Core Metrocentro</h1>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="carousel2 js-flickity"
-                 data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": true, "pageDots": false, "imagesLoaded": true }'>
-                <img src="img/porta/arqui/AdidasMetro/1.jpg" alt="adidas metrocentro" />
+                 data-flickity='{"contain": true, "prevNextButtons": true, "pageDots": false, "imagesLoaded": true }'>
                 <div class="carousel-cell" style="background: white;">
                     <div class="texto-slider centrado-slider">
                         <h2 class="text-center text-uppercase">Adidas Core Metrocentro</h2>
                         <h3 class="text-center"><span>{{trans('arqui.supConst')}}</span></h3>
+                        <h4 class="text-center visible-xs ext-uppercase"><span>{{trans('arqui.desIz')}}</span></h4>
                     </div>
                 </div>
+                <img src="img/porta/arqui/AdidasMetro/1.jpg" alt="adidas metrocentro" />
                 <img src="img/porta/arqui/AdidasMetro/2.jpg" alt="adidas metrocentro" />
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="padding-text">
-                <h1 class="white-text">Adidas Originals Multiplaza</h1>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="carousel2 js-flickity"
-                 data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": true, "pageDots": false, "imagesLoaded": true }'>
-
-                <img src="img/porta/arqui/AdidasMulti/1.jpg" alt="adidas multiplaza" />
-                <img src="img/porta/arqui/AdidasMulti/2.jpg" alt="adidas multiplaza" />
+                 data-flickity='{ "contain": true, "prevNextButtons": true, "pageDots": false, "imagesLoaded": true }'>
                 <div class="carousel-cell" style="background: white;">
                     <div class="texto-slider centrado-slider">
                         <h2 class="text-center text-uppercase">Adidas Originals Multiplaza</h2>
                         <h3 class="text-center"><span>{{trans('arqui.supConst')}}</span></h3>
-                        <h4 class="text-center mobil-only">Desliza para más información</h4>
+                        <h4 class="text-center visible-xs ext-uppercase"><span>{{trans('arqui.desIz')}}</span></h4>
                     </div>
                 </div>
+                <img src="img/porta/arqui/AdidasMulti/2.jpg" alt="adidas multiplaza" />
+                <img src="img/porta/arqui/AdidasMulti/1.jpg" alt="adidas multiplaza" />
                 <img src="img/porta/arqui/AdidasMulti/3.jpg" alt="adidas multiplaza" />
                 <img src="img/porta/arqui/AdidasMulti/4.jpg" alt="adidas multiplaza" />
                 <img src="img/porta/arqui/AdidasMulti/5.jpg" alt="adidas multiplaza" />
@@ -51,19 +37,13 @@
     </div>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="padding-text">
-                <h1 class="white-text">Adidas Performance Multiplaza</h1>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="carousel2 js-flickity"
-                 data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": true, "pageDots": false, "imagesLoaded": true }'>
+                 data-flickity='{ "contain": true, "prevNextButtons": true, "pageDots": false, "imagesLoaded": true }'>
                 <div class="carousel-cell" style="background: white;">
                     <div class="texto-slider centrado-slider">
                         <h2 class="text-center text-uppercase">Adidas Performance Multiplaza</h2>
                         <h3 class="text-center"><span>{{trans('arqui.supConst')}}</span></h3>
+                        <h4 class="text-center visible-xs ext-uppercase"><span>{{trans('arqui.desIz')}}</span></h4>
                     </div>
                 </div>
                 <img src="img/porta/arqui/AdidasPerMulti/1.jpg" alt="adidas multiplaza" />
@@ -75,19 +55,13 @@
     </div>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="padding-text">
-                <h1 class="white-text">Flexi San Miguel</h1>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="carousel2 js-flickity"
-                 data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": true, "pageDots": false, "imagesLoaded": true }'>
+                 data-flickity='{"contain": true, "prevNextButtons": true, "pageDots": false, "imagesLoaded": true }'>
                 <div class="carousel-cell" style="background: white;">
                     <div class="texto-slider centrado-slider">
                         <h2 class="text-center text-uppercase">Flexi San Miguel</h2>
                         <h3 class="text-center"><span>{{trans('arqui.supConst')}}</span></h3>
+                        <h4 class="text-center visible-xs ext-uppercase"><span>{{trans('arqui.desIz')}}</span></h4>
                     </div>
                 </div>
                 <img src="img/porta/arqui/Flexi/1.jpg" alt="flexi san miguel" />
@@ -99,19 +73,13 @@
     </div>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="padding-text">
-                <h1 class="white-text">Rebook Multiplaza</h1>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="carousel2"
-                 data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": true, "pageDots": false, "imagesLoaded": true}'>
+                 data-flickity='{"contain": true, "prevNextButtons": true, "pageDots": false, "imagesLoaded": true}'>
                 <div class="carousel-cell" style="background: white;">
                     <div class="texto-slider centrado-slider">
                         <h2 class="text-center text-uppercase">Rebook Multiplaza</h2>
                         <h3 class="text-center"><span>{{trans('arqui.supConst')}}</span></h3>
+                        <h4 class="text-center visible-xs ext-uppercase"><span>{{trans('arqui.desIz')}}</span></h4>
                     </div>
                 </div>
                 <img src="img/porta/arqui/Reebok/1.jpg" alt="reebok multiplaza" />
@@ -123,19 +91,13 @@
     </div>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="padding-text">
-                <h1 class="white-text">Carcamo los Naranjos</h1>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="carousel2"
-                 data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": true, "pageDots": false, "imagesLoaded": true}'>
+                 data-flickity='{"contain": true, "prevNextButtons": true, "pageDots": false, "imagesLoaded": true}'>
                 <div class="carousel-cell" style="background: white;">
                     <div class="texto-slider centrado-slider">
                         <h2 class="text-center text-uppercase">Carcamo los Naranjos</h2>
                         <h3 class="text-center"><span>{{trans('arqui.desSupCons')}}</span></h3>
+                        <h4 class="text-center visible-xs ext-uppercase"><span>{{trans('arqui.desIz')}}</span></h4>
                     </div>
                 </div>
                 <img src="img/porta/arqui/cabana/1.jpg" alt="Carcamo los naranjo" />

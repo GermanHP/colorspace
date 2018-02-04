@@ -1,5 +1,5 @@
 
-<footer class="mdl-mini-footer">
+<footer class="mdl-mini-footer footer1">
     <div class="mdl-mini-footer__left-section" id="seccionFooter">
         <a class="navbar-brand" href="#">
             <img id="logoColorSpace2" src="{{url('img/logospace.png')}}" alt="">
