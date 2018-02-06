@@ -14,6 +14,5 @@
                 <img src="img/porta/desing/Clothing/2.jpg" alt="Clothing" />
             </div>
         </div>
-
     </div>
 @stop

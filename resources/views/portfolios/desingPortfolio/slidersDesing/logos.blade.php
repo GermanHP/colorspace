@@ -25,6 +25,5 @@
                 <img src="img/porta/desing/Logo/13.jpg" alt="Logo" />
             </div>
         </div>
-
     </div>
 @stop

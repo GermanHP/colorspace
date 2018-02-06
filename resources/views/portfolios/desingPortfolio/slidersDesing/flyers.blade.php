@@ -20,6 +20,5 @@
                 <img src="img/porta/desing/Flyers/8.jpg" alt="flyers" />
             </div>
         </div>
-
     </div>
 @stop

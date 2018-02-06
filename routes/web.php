@@ -65,6 +65,7 @@ Route::group(['middleware' =>['web']], function (){
     Route::get('/ilustraciones', 'DesingPortfolioController@ilustraciones');
     Route::get('/logos', 'DesingPortfolioController@logo');
     Route::get('/papeleria', 'DesingPortfolioController@papeleria');
+    Route::get('/porfolio-advertising-desing', 'DesingPortfolioController@advertisingDesingPortfolio');
 
     /*Ruta para el blog temporal*/
     Route::get('/blog',['uses' => 'BlogController@getIndex', 'as' => 'blog.index']);

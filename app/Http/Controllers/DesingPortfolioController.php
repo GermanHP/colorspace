@@ -38,4 +38,7 @@ class DesingPortfolioController
     public function papeleria(){
         return view('portfolios.desingPortfolio.slidersDesing.papeleria');
     }
+    public function advertisingDesingPortfolio(){
+        return view('portfolios.desingPortfolio.slidersDesing.advertisingdesing');
+    }
 }

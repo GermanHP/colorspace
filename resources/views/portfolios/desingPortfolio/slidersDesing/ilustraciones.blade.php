@@ -15,9 +15,7 @@
                 <img src="img/porta/desing/Ilustraciones/3.jpg" alt="Ilustraciones" />
                 <img src="img/porta/desing/Ilustraciones/4.jpg" alt="Ilustraciones" />
                 <img src="img/porta/desing/Ilustraciones/5.jpg" alt="Ilustraciones" />
-
             </div>
         </div>
-
     </div>
 @stop

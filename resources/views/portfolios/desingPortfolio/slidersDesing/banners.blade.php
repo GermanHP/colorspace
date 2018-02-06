@@ -14,6 +14,5 @@
                 <img src="img/porta/desing/Banners/2.jpg" alt="banners" />
             </div>
         </div>
-
     </div>
 @stop
