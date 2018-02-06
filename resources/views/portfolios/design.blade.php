@@ -16,7 +16,6 @@
             </div>
         </div>
     </div>
-
     <div class="row">
         <div class="col-lg-12">
         
@@ -33,7 +32,6 @@
             </div>
         </div>
     </div>
-
     <div class="row" id="servicios">
         <div class="col-lg-12">
             <div class="contenedor-img-1 slide-1">
@@ -49,7 +47,6 @@
             </div>
         </div>
     </div>
-
     <div class="row">
         <div class="col-lg-12">
         
@@ -66,5 +63,4 @@
             </div>
         </div>
     </div>
-
 @stop
