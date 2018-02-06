@@ -21,7 +21,7 @@
         <div class="col-lg-12">
         
             <div class="contenedor-img-2 slide-1-1">
-                <a href="{{url('/porfolio-advertising-desing')}}">
+                <a href="">
                      <img src="img/disenio/chloting.jpg" alt="" class="img-responsive-opacity" id="clothing">
                      <div class="mascara-2">
                          <br>
@@ -37,7 +37,7 @@
     <div class="row" id="servicios">
         <div class="col-lg-12">
             <div class="contenedor-img-1 slide-1">
-                <a href="{{url('/porfolio-advertising-desing')}}">
+                <a href="">
                     <img src="img/disenio/animation.jpg" alt="" class="img-responsive-opacity" id="animacion">
                     <div class="mascara">
                         <br>
@@ -54,7 +54,7 @@
         <div class="col-lg-12">
         
             <div class="contenedor-img-2 slide-1-1">
-                <a href="{{url('/porfolio-advertising-desing')}}">
+                <a href="">
                      <img src="img/disenio/photo.jpg" alt="" class="img-responsive-opacity" id="photo">
                      <div class="mascara-2">
                          <br>
