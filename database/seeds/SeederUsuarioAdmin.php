@@ -21,5 +21,15 @@ class SeederUsuarioAdmin extends Seeder
             'created_at' => new DateTime,
             'updated_at' => new DateTime
         ));
+        DB::table('users')->insert(array(
+            'nombre'=>'Awrik',
+            'apellido'=>'Rodriguez',
+            'fechaDeNacimiento'=>'18/12/1993',
+            'resetPassword'=>'0',
+            'email'=>'info@colorspaceco.com',
+            'password'=>bcrypt('$coloresespacio;'),
+            'created_at' => new DateTime,
+            'updated_at' => new DateTime
+        ));
     }
 }
